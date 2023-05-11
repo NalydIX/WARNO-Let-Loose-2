@@ -1,0 +1,12 @@
+// Enum à maintenir synchro avec CommonData:/Python/Eugen/defines/game_difficulty_values.py
+// et CommonData:/Gameplay/Constantes/Enumerations/GameDifficulty.ndf
+
+GameDifficultyNdfEnum is EGameDifficulty
+(
+    // Ne pas renommer les valeurs, elles sont écrites sous forme de string dans le profil des joueurs
+    Values = [
+        "Easy",
+        "Medium",
+        "Hard",
+    ]
+)

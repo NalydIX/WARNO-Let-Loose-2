@@ -1,0 +1,13 @@
+// Garder synchro avec Engine\Code\Eugen\CPP\EugIA_Common\TerrainsQueryContext.h
+ETerrainsQueryContext is TBaseClass
+(
+    UnknownContext                          is 0
+    TerrainLayerQuery                       is 1
+    VisionQuery                             is 2
+    VehicleObstaclesQuery                   is 3
+    AmphibianVehicleObstaclesQuery          is 4
+    InfantryObstaclesQuery                  is 5
+    HelicoObstaclesQuery                    is 6
+    SpeedModifierGroundWaterLayerQuery      is 7
+    SpeedModifierObjectLayerQuery           is 8
+)
