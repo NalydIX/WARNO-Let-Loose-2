@@ -609,12 +609,12 @@ WargameConstantes is TWargameTunableConstante
 
     PaliersDAgilite = MAP
     [
-        (2000 *Metre, 'Value_6'),//Exceptional
-        (4000*Metre, 'Value_5'),//Very good
-        (6000*Metre, 'Value_4'), //Good
-        (7000*Metre, 'Value_3'), //Normal
-        (90000*Metre, 'Value_2'),  //Mediocre
-        (10000*Metre, 'Value_1'),  //Bad
+        (2000*Metre, 'Value_6'),//Exceptional
+        (2500*Metre, 'Value_5'),//Very good
+        (3000*Metre, 'Value_4'), //Good
+        (4000*Metre, 'Value_3'), //Normal
+        (5000*Metre, 'Value_2'),  //Mediocre
+        (6000*Metre, 'Value_1'),  //Bad
 
     ]
 
@@ -629,9 +629,9 @@ WargameConstantes is TWargameTunableConstante
 
     PaliersDOptiqueDAltitude = MAP
     [
-        (150, 'Value_3'),
-        (300, 'Value_4'),
-        (450, 'Value_6'),
+        (250, 'Value_3'),
+        (500, 'Value_4'),
+        (650, 'Value_6'),
 
     ]
 
@@ -670,8 +670,8 @@ WargameConstantes is TWargameTunableConstante
 
     TagDInfanteriePinned = "Infanterie_Cowering"
     TempsAttenteAffichageIconeConflitQuartier = 0.5 // Permet de temporiser l'affichage de l'icône de conflit dans un quartier le temps que les étiquettes se placent
-    ValeurMinAffichageBarMoralLabel = 0 // compris entre 0 et 1
-    ValeurMaxBarMoralLabel = 1 // compris entre 0 et 1
+    ValeurMinAffichageBarMoralLabel = 0.01 // compris entre 0 et 1
+    ValeurMaxBarMoralLabel = 1.0 // compris entre 0 et 1
     ValeurMinimumCoverLeger = 4 // Terrain stealth bonus
     ValeurMinimumCoverMoyen = 7.5 // Terrain stealth bonus
     ValeurMinimumCoverTresLeger = 10 // Unit stealth bonus

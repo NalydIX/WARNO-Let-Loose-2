@@ -67,13 +67,12 @@ export ExperienceLevelsPackDescriptor_Experience_Avion is TExperienceLevelsPackD
             DescriptorId = GUID:{ccea8f50-fab7-4a34-911f-250ef6c86021}
             LocalizationToken = "EXPLEVEL1"
             ThresholdAdditionalValue = 0.0
-            ThresholdPriceMultiplier = 2.0
+            ThresholdPriceMultiplier = 6.0
             IconsByNationality = [
             ]
             LevelEffectsPacks = [
-                ~/UnitEffect_Precision_plus_15,
-                ~/UnitEffect_Effet_Suppress_Recu_85pourcent,
-                ~/UnitEffect_Esquive_plus_15,
+                ~/UnitEffect_Ajoute_Tag_xp_regular,
+                ~/UnitEffect_Regen_suppress_regular,
             ]
             NameForDebug = "Experience_Avion_niveau_1"
         ),
@@ -82,13 +81,14 @@ export ExperienceLevelsPackDescriptor_Experience_Avion is TExperienceLevelsPackD
             DescriptorId = GUID:{91f83bd8-c189-41a0-81f7-53dd3b0d76bf}
             LocalizationToken = "EXPLEVEL2"
             ThresholdAdditionalValue = 0.0
-            ThresholdPriceMultiplier = 4.0
+            ThresholdPriceMultiplier = 8.0
             IconsByNationality = [
             ]
             LevelEffectsPacks = [
-                ~/UnitEffect_Precision_plus_25,
+                ~/UnitEffect_Ajoute_Tag_xp_veteran,
+                ~/UnitEffect_Regen_suppress_veteran,
                 ~/UnitEffect_Effet_Suppress_Recu_75pourcent,
-                ~/UnitEffect_Esquive_plus_25,
+                ~/UnitEffect_Precision_plus_15,
             ]
             NameForDebug = "Experience_Avion_niveau_2"
         ),
@@ -97,13 +97,14 @@ export ExperienceLevelsPackDescriptor_Experience_Avion is TExperienceLevelsPackD
             DescriptorId = GUID:{c626d385-efa8-480e-a4ba-1d316386b5f5}
             LocalizationToken = "EXPLEVEL3"
             ThresholdAdditionalValue = 0.0
-            ThresholdPriceMultiplier = 6.0
+            ThresholdPriceMultiplier = 12.0
             IconsByNationality = [
             ]
             LevelEffectsPacks = [
+                ~/UnitEffect_Ajoute_Tag_xp_elite,
+                ~/UnitEffect_Regen_suppress_elite,
+                ~/UnitEffect_Effet_Suppress_Recu_50pourcent,
                 ~/UnitEffect_Precision_plus_33,
-                ~/UnitEffect_Effet_Suppress_Recu_66pourcent,
-                ~/UnitEffect_Esquive_plus_33,
             ]
             NameForDebug = "Experience_Avion_niveau_3"
         ),

@@ -92,7 +92,7 @@ export Descriptor_District_Quartier_Gros is TEntityDescriptor(
                     MaxStunDamages = ~/Building_MaxStunDamages
                 )
                 MaxDamages = 45
-                KillWhenDamagesReachMax = True
+                KillWhenDamagesReachMax = False
                 HitRollSize = 5.0
                 HitRollECM = 0.0
                 AutoOrientation = False
@@ -370,7 +370,7 @@ export Descriptor_District_Quartier_Moyen is TEntityDescriptor(
                     MaxStunDamages = ~/Building_MaxStunDamages
                 )
                 MaxDamages = 15
-                KillWhenDamagesReachMax = True
+                KillWhenDamagesReachMax = False
                 HitRollSize = 5.0
                 HitRollECM = 0.0
                 AutoOrientation = False
@@ -509,7 +509,7 @@ export Descriptor_District_Quartier_Petit is TEntityDescriptor(
                     MaxStunDamages = ~/Building_MaxStunDamages
                 )
                 MaxDamages = 15
-                KillWhenDamagesReachMax = True
+                KillWhenDamagesReachMax = False
                 HitRollSize = 5.0
                 HitRollECM = 0.0
                 AutoOrientation = False

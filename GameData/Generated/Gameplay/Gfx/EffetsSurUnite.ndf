@@ -1361,7 +1361,7 @@ export UnitEffect_Effet_Suppress_Recu_50pourcent is TEffectsPackDescriptor
         TUnitEffectIncreaseDamageTakenDescriptor
         (
             ModifierType        = ~/ModifierType_Multiplicatif
-            BonusDamage         = 0.50
+            BonusDamage         = 0.5
             DamageType          = EDamageType/Suppress
         ),
     ]
@@ -1374,7 +1374,7 @@ export UnitEffect_Effet_Suppress_Recu_55pourcent is TEffectsPackDescriptor
         TUnitEffectIncreaseDamageTakenDescriptor
         (
             ModifierType        = ~/ModifierType_Multiplicatif
-            BonusDamage         = 0.5
+            BonusDamage         = 0.55
             DamageType          = EDamageType/Suppress
         ),
     ]
@@ -1472,7 +1472,7 @@ export UnitEffect_Esquive_plus_15 is TEffectsPackDescriptor
         TUnitEffectBonusPrecisionWhenTargetedDescriptor
         (
             ModifierType       = ~/ModifierType_Pourcentage
-            BonusPrecisionWhenTargeted = -15
+            BonusPrecisionWhenTargeted = -100
         ),
     ]
 )
@@ -1572,12 +1572,12 @@ export UnitEffect_GroundUnit_Cohesion_High is TEffectsPackDescriptor
         TUnitEffectIncreaseChassisRotationSpeedDescriptor
         (
             ModifierType       = ~/ModifierType_Pourcentage
-            BonusChassisRotationSpeed  = 10
+            BonusChassisRotationSpeed  = 0
         ),
         TUnitEffectIncreaseTurretRotationSpeedDescriptor
         (
             ModifierType       = ~/ModifierType_Pourcentage
-            BonusTurretRotationSpeed  = 10
+            BonusTurretRotationSpeed  = 0
         ),
         TUnitEffectRaiseTagDescriptor
         (
@@ -1595,17 +1595,17 @@ export UnitEffect_GroundUnit_Cohesion_Low is TEffectsPackDescriptor
         TUnitEffectIncreaseChassisRotationSpeedDescriptor
         (
             ModifierType       = ~/ModifierType_Pourcentage
-            BonusChassisRotationSpeed  = -50
+            BonusChassisRotationSpeed  = -40
         ),
         TUnitEffectIncreaseTurretRotationSpeedDescriptor
         (
             ModifierType       = ~/ModifierType_Pourcentage
-            BonusTurretRotationSpeed  = -50
+            BonusTurretRotationSpeed  = -40
         ),
         TUnitEffectIncreaseSpeedDescriptor
         (
             ModifierType             = ~/ModifierType_Pourcentage
-            BonusSpeedBaseInPercent  = -50
+            BonusSpeedBaseInPercent  = -30
         ),
         TBonusWeaponAimtimeEffectDescriptor
         (
@@ -1640,11 +1640,11 @@ export UnitEffect_GroundUnit_Cohesion_Mediocre is TEffectsPackDescriptor
         TUnitEffectIncreaseSpeedDescriptor
         (
             ModifierType             = ~/ModifierType_Pourcentage
-            BonusSpeedBaseInPercent  = -25
+            BonusSpeedBaseInPercent  = -20
         ),
         TBonusWeaponAimtimeEffectDescriptor
         (
-            BonusAimtime = 1.25
+            BonusAimtime = 1.1
         ),
         TUnitEffectRaiseTagDescriptor
         (
@@ -2465,6 +2465,11 @@ export UnitEffect_RoF_plus_50pourcent is TEffectsPackDescriptor
             ModifierType                     = ~/ModifierType_Multiplicatif
             ModificationTempsEntreDeuxSalves = 0.50
         ),
+        TUnitEffectShowLabelIconDescriptor
+        (
+            TextureToken         = "icone_sniper"
+            CanBeSeenByEnemy         = false
+        ),
     ]
 )
 export UnitEffect_RoF_plus_5pourcent is TEffectsPackDescriptor
@@ -2920,6 +2925,42 @@ export UnitEffect_sniper is TEffectsPackDescriptor
         (
             TextureToken         = "icone_sniper"
             CanBeSeenByEnemy         = false
+        ),
+    ]
+)
+export UnitEffect_Stress_ATGM is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{1948a247-2bc7-4483-adb5-9578a956181b}
+    NameForDebug       = 'Stress_ATGM'
+    EffectsDescriptors = [
+        TEffectInflictSuppressDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            SuppressDamageValue      = 20
+        ),
+    ]
+)
+export UnitEffect_Stress_Petit_AA is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{f135231f-376b-4432-b70e-490688077c78}
+    NameForDebug       = 'Stress_Petit_AA'
+    EffectsDescriptors = [
+        TEffectInflictSuppressDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            SuppressDamageValue      = 30
+        ),
+    ]
+)
+export UnitEffect_Stress_Gros_AA is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{1114c412-f3c8-4221-8fdb-333f854253c5}
+    NameForDebug       = 'Stress_Gros_AA'
+    EffectsDescriptors = [
+        TEffectInflictSuppressDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            SuppressDamageValue      = 100
         ),
     ]
 )

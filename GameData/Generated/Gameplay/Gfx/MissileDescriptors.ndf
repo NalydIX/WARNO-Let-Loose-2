@@ -125,7 +125,7 @@ export Descriptor_Missile_AA_AIM120A_AMRAAM is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -258,7 +258,7 @@ export Descriptor_Missile_AA_AIM132_ASRAAM is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -391,7 +391,7 @@ export Descriptor_Missile_AA_AIM7F_Sparrow is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -524,7 +524,7 @@ export Descriptor_Missile_AA_AIM7M_Sparrow is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -657,7 +657,7 @@ export Descriptor_Missile_AA_AIM9J_Sidewinder is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -790,7 +790,7 @@ export Descriptor_Missile_AA_AIM9L_Sidewinder is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -923,7 +923,7 @@ export Descriptor_Missile_AA_AIM9M_Sidewinder is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -1056,7 +1056,7 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -1189,7 +1189,7 @@ export Descriptor_Missile_AA_AIM9P_Sidewinder_x2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -1322,7 +1322,7 @@ export Descriptor_Missile_AA_Matra_R530 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -1455,7 +1455,7 @@ export Descriptor_Missile_AA_Matra_Super_530D is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -1588,7 +1588,7 @@ export Descriptor_Missile_AA_Matra_Super_530F is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -1721,7 +1721,7 @@ export Descriptor_Missile_AA_R13M is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -1854,7 +1854,7 @@ export Descriptor_Missile_AA_R23R_Vympel is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -1987,7 +1987,7 @@ export Descriptor_Missile_AA_R24R_Vympel is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -2120,7 +2120,7 @@ export Descriptor_Missile_AA_R27R_Vympel is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -2253,7 +2253,7 @@ export Descriptor_Missile_AA_R33_Vympel is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -2386,7 +2386,7 @@ export Descriptor_Missile_AA_R37_Vympel is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -2519,7 +2519,7 @@ export Descriptor_Missile_AA_R550_Magic is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -2652,7 +2652,7 @@ export Descriptor_Missile_AA_R550_Magic_II is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -2785,7 +2785,7 @@ export Descriptor_Missile_AA_R60_Vympel is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -2918,7 +2918,7 @@ export Descriptor_Missile_AA_R60_Vympel_helo is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -3051,7 +3051,7 @@ export Descriptor_Missile_AA_R60M_Vympel is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -3184,7 +3184,7 @@ export Descriptor_Missile_AA_R73_Vympel is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -3317,7 +3317,7 @@ export Descriptor_Missile_AA_R77_Vympel is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -3450,7 +3450,7 @@ export Descriptor_Missile_AA_Skyflash is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -3583,7 +3583,7 @@ export Descriptor_Missile_AA_Skyflash_SuperTEMP is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -3649,13 +3649,13 @@ export Descriptor_Missile_AGM_9K121_Vikhr is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2000 * Metre
+                    MaxSpeed        = 2200 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2000 * Metre
+                    MaxSpeed        = 2200 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
@@ -3715,7 +3715,7 @@ export Descriptor_Missile_AGM_9K121_Vikhr is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -3781,13 +3781,13 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x12 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2000 * Metre
+                    MaxSpeed        = 2200 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2000 * Metre
+                    MaxSpeed        = 2200 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
@@ -3847,7 +3847,7 @@ export Descriptor_Missile_AGM_9K121_Vikhr_x12 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -3913,13 +3913,13 @@ export Descriptor_Missile_AGM_9M114M_KokonM is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -3979,7 +3979,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -4045,13 +4045,13 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x16 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -4111,7 +4111,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x16 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -4177,13 +4177,13 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -4243,7 +4243,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -4309,13 +4309,13 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -4375,7 +4375,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -4441,13 +4441,13 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x6 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -4507,7 +4507,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x6 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -4573,13 +4573,13 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x8 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -4639,7 +4639,7 @@ export Descriptor_Missile_AGM_9M114M_KokonM_x8 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -4705,13 +4705,13 @@ export Descriptor_Missile_AGM_9M17P_FalangaP is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
@@ -4771,7 +4771,7 @@ export Descriptor_Missile_AGM_9M17P_FalangaP is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -4837,13 +4837,13 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
@@ -4903,7 +4903,7 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -4969,13 +4969,13 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x6 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
@@ -5035,7 +5035,7 @@ export Descriptor_Missile_AGM_9M17P_FalangaP_x6 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -5101,13 +5101,13 @@ export Descriptor_Missile_AGM_AGM114A is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 3000 * Metre
+                    MaxSpeed        = 3300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 3000 * Metre
+                    MaxSpeed        = 3300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
@@ -5179,7 +5179,7 @@ export Descriptor_Missile_AGM_AGM114A is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -5245,13 +5245,13 @@ export Descriptor_Missile_AGM_AGM114A_x16 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 3000 * Metre
+                    MaxSpeed        = 3300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 3000 * Metre
+                    MaxSpeed        = 3300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
@@ -5323,7 +5323,7 @@ export Descriptor_Missile_AGM_AGM114A_x16 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -5389,13 +5389,13 @@ export Descriptor_Missile_AGM_AGM114A_x2_salve is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 3000 * Metre
+                    MaxSpeed        = 3300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 3000 * Metre
+                    MaxSpeed        = 3300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
@@ -5467,7 +5467,7 @@ export Descriptor_Missile_AGM_AGM114A_x2_salve is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -5533,13 +5533,13 @@ export Descriptor_Missile_AGM_AGM114A_x2_sol is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 3000 * Metre
+                    MaxSpeed        = 3300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 3000 * Metre
+                    MaxSpeed        = 3300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
@@ -5611,7 +5611,7 @@ export Descriptor_Missile_AGM_AGM114A_x2_sol is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -5677,13 +5677,13 @@ export Descriptor_Missile_AGM_AGM114A_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 3000 * Metre
+                    MaxSpeed        = 3300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 3000 * Metre
+                    MaxSpeed        = 3300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
@@ -5755,7 +5755,7 @@ export Descriptor_Missile_AGM_AGM114A_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -5821,13 +5821,13 @@ export Descriptor_Missile_AGM_AGM114A_x8 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 3000 * Metre
+                    MaxSpeed        = 3300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 3000 * Metre
+                    MaxSpeed        = 3300 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
@@ -5899,7 +5899,7 @@ export Descriptor_Missile_AGM_AGM114A_x8 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -6031,7 +6031,7 @@ export Descriptor_Missile_AGM_AGM45_Shrike is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -6163,7 +6163,7 @@ export Descriptor_Missile_AGM_AGM65B_Maverick is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -6295,7 +6295,7 @@ export Descriptor_Missile_AGM_AGM65D_Maverick is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -6427,7 +6427,7 @@ export Descriptor_Missile_AGM_AGM65E_Maverick is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -6559,7 +6559,7 @@ export Descriptor_Missile_AGM_AGM88_HARM is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -6691,7 +6691,7 @@ export Descriptor_Missile_AGM_AJ_168_x2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -6823,7 +6823,7 @@ export Descriptor_Missile_AGM_ALARM is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -6955,7 +6955,7 @@ export Descriptor_Missile_AGM_ARMAT is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -7087,7 +7087,7 @@ export Descriptor_Missile_AGM_AS30 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -7219,7 +7219,7 @@ export Descriptor_Missile_AGM_AS30L is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -7351,7 +7351,7 @@ export Descriptor_Missile_AGM_AS37_Martel is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -7483,7 +7483,7 @@ export Descriptor_Missile_AGM_AS37_Martel_x2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -7549,13 +7549,13 @@ export Descriptor_Missile_AGM_BGM71_TOW_x8 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -7615,7 +7615,7 @@ export Descriptor_Missile_AGM_BGM71_TOW_x8 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -7681,13 +7681,13 @@ export Descriptor_Missile_AGM_BGM71C_ITOW_x8 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -7747,7 +7747,7 @@ export Descriptor_Missile_AGM_BGM71C_ITOW_x8 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -7813,13 +7813,13 @@ export Descriptor_Missile_AGM_HOT1 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -7879,7 +7879,7 @@ export Descriptor_Missile_AGM_HOT1 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -7945,13 +7945,13 @@ export Descriptor_Missile_AGM_HOT1_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -8011,7 +8011,7 @@ export Descriptor_Missile_AGM_HOT1_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -8077,13 +8077,13 @@ export Descriptor_Missile_AGM_HOT2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -8143,7 +8143,7 @@ export Descriptor_Missile_AGM_HOT2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -8209,13 +8209,13 @@ export Descriptor_Missile_AGM_HOT2_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -8275,7 +8275,7 @@ export Descriptor_Missile_AGM_HOT2_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -8407,7 +8407,7 @@ export Descriptor_Missile_AGM_Kh23M is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -8539,7 +8539,7 @@ export Descriptor_Missile_AGM_Kh25ML is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -8671,7 +8671,7 @@ export Descriptor_Missile_AGM_Kh25MPU is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -8803,7 +8803,7 @@ export Descriptor_Missile_AGM_Kh28_X28 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -8935,7 +8935,7 @@ export Descriptor_Missile_AGM_Kh29D is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -9067,7 +9067,7 @@ export Descriptor_Missile_AGM_Kh29T is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -9199,7 +9199,7 @@ export Descriptor_Missile_AGM_Kh31P is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -9331,7 +9331,7 @@ export Descriptor_Missile_AGM_Kh58U is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -9397,13 +9397,13 @@ export Descriptor_Missile_ATGM_9K111_Fagot is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -9463,7 +9463,7 @@ export Descriptor_Missile_ATGM_9K111_Fagot is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -9529,13 +9529,13 @@ export Descriptor_Missile_ATGM_9K121_Vikhr is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2000 * Metre
+                    MaxSpeed        = 2200 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2000 * Metre
+                    MaxSpeed        = 2200 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
@@ -9595,7 +9595,7 @@ export Descriptor_Missile_ATGM_9K121_Vikhr is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -9661,13 +9661,13 @@ export Descriptor_Missile_ATGM_9M112_1_Kobra is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -9727,7 +9727,7 @@ export Descriptor_Missile_ATGM_9M112_1_Kobra is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -9793,13 +9793,13 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_BMP2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -9859,7 +9859,7 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_BMP2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -9925,13 +9925,13 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_x5 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -9991,7 +9991,7 @@ export Descriptor_Missile_ATGM_9M113_Konkurs_x5 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -10057,13 +10057,13 @@ export Descriptor_Missile_ATGM_9M113_KonkursM is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -10123,7 +10123,7 @@ export Descriptor_Missile_ATGM_9M113_KonkursM is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -10189,13 +10189,13 @@ export Descriptor_Missile_ATGM_9M114_Shturm_MTLB is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -10255,7 +10255,7 @@ export Descriptor_Missile_ATGM_9M114_Shturm_MTLB is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -10321,13 +10321,13 @@ export Descriptor_Missile_ATGM_9M114M_KokonM is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -10387,7 +10387,7 @@ export Descriptor_Missile_ATGM_9M114M_KokonM is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -10453,13 +10453,13 @@ export Descriptor_Missile_ATGM_9M117_Bastion is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2000 * Metre
+                    MaxSpeed        = 2200 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2000 * Metre
+                    MaxSpeed        = 2200 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
@@ -10519,7 +10519,7 @@ export Descriptor_Missile_ATGM_9M117_Bastion is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -10585,13 +10585,13 @@ export Descriptor_Missile_ATGM_9M117M_Arkan is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2000 * Metre
+                    MaxSpeed        = 2200 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2000 * Metre
+                    MaxSpeed        = 2200 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
@@ -10651,7 +10651,7 @@ export Descriptor_Missile_ATGM_9M117M_Arkan is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -10717,13 +10717,13 @@ export Descriptor_Missile_ATGM_9M119M_Refleks is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2000 * Metre
+                    MaxSpeed        = 2200 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 2000 * Metre
+                    MaxSpeed        = 2200 * Metre
                     MaxAcceleration = 1000 * Metre
                     AutoGyr         = 0.8726646259971648
                 )
@@ -10783,7 +10783,7 @@ export Descriptor_Missile_ATGM_9M119M_Refleks is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -10849,13 +10849,13 @@ export Descriptor_Missile_ATGM_9M128_Agona is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -10915,7 +10915,7 @@ export Descriptor_Missile_ATGM_9M128_Agona is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -10981,13 +10981,13 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
@@ -11047,7 +11047,7 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -11113,13 +11113,13 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
@@ -11179,7 +11179,7 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -11245,13 +11245,13 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x6 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
@@ -11311,7 +11311,7 @@ export Descriptor_Missile_ATGM_9M14_MalyutkaP_x6 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -11377,13 +11377,13 @@ export Descriptor_Missile_ATGM_9k111M_Faktoriya is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -11443,7 +11443,7 @@ export Descriptor_Missile_ATGM_9k111M_Faktoriya is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -11509,13 +11509,13 @@ export Descriptor_Missile_ATGM_BGM71_TOW is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -11575,7 +11575,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -11641,13 +11641,13 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -11707,7 +11707,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -11773,13 +11773,13 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -11839,7 +11839,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -11905,13 +11905,13 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x8 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -11971,7 +11971,7 @@ export Descriptor_Missile_ATGM_BGM71_TOW_x8 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -12037,13 +12037,13 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -12103,7 +12103,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -12169,13 +12169,13 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -12235,7 +12235,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -12301,13 +12301,13 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -12367,7 +12367,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -12433,13 +12433,13 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x8 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -12499,7 +12499,7 @@ export Descriptor_Missile_ATGM_BGM71C_ITOW_x8 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -12565,13 +12565,13 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -12631,7 +12631,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -12697,13 +12697,13 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -12763,7 +12763,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -12829,13 +12829,13 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -12895,7 +12895,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -12961,13 +12961,13 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x8 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -13027,7 +13027,7 @@ export Descriptor_Missile_ATGM_BGM71D_TOW_2_x8 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -13093,13 +13093,13 @@ export Descriptor_Missile_ATGM_HOT1 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -13159,7 +13159,7 @@ export Descriptor_Missile_ATGM_HOT1 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -13225,13 +13225,13 @@ export Descriptor_Missile_ATGM_HOT1_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -13291,7 +13291,7 @@ export Descriptor_Missile_ATGM_HOT1_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -13357,13 +13357,13 @@ export Descriptor_Missile_ATGM_HOT1_x6 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -13423,7 +13423,7 @@ export Descriptor_Missile_ATGM_HOT1_x6 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -13489,13 +13489,13 @@ export Descriptor_Missile_ATGM_HOT2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -13555,7 +13555,7 @@ export Descriptor_Missile_ATGM_HOT2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -13621,13 +13621,13 @@ export Descriptor_Missile_ATGM_HOT2_x2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -13687,7 +13687,7 @@ export Descriptor_Missile_ATGM_HOT2_x2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -13753,13 +13753,13 @@ export Descriptor_Missile_ATGM_HOT2_x3 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -13819,7 +13819,7 @@ export Descriptor_Missile_ATGM_HOT2_x3 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -13885,13 +13885,13 @@ export Descriptor_Missile_ATGM_HOT2_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -13951,7 +13951,7 @@ export Descriptor_Missile_ATGM_HOT2_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -14017,13 +14017,13 @@ export Descriptor_Missile_ATGM_HOT2_x6 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -14083,7 +14083,7 @@ export Descriptor_Missile_ATGM_HOT2_x6 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -14149,13 +14149,13 @@ export Descriptor_Missile_ATGM_MGM551C_Shillelagh is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -14215,7 +14215,7 @@ export Descriptor_Missile_ATGM_MGM551C_Shillelagh is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -14281,13 +14281,13 @@ export Descriptor_Missile_ATGM_MILAN is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -14347,7 +14347,7 @@ export Descriptor_Missile_ATGM_MILAN is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -14413,13 +14413,13 @@ export Descriptor_Missile_ATGM_MILAN_2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -14479,7 +14479,7 @@ export Descriptor_Missile_ATGM_MILAN_2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -14545,13 +14545,13 @@ export Descriptor_Missile_ATGM_MILAN_2_x2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -14611,7 +14611,7 @@ export Descriptor_Missile_ATGM_MILAN_2_x2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -14677,13 +14677,13 @@ export Descriptor_Missile_ATGM_SS11_x4 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
@@ -14743,7 +14743,7 @@ export Descriptor_Missile_ATGM_SS11_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -14809,13 +14809,13 @@ export Descriptor_Missile_ATGM_Swingfire is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -14875,7 +14875,7 @@ export Descriptor_Missile_ATGM_Swingfire is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -14941,13 +14941,13 @@ export Descriptor_Missile_ATGM_Swingfire_x2 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -15007,7 +15007,7 @@ export Descriptor_Missile_ATGM_Swingfire_x2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -15073,13 +15073,13 @@ export Descriptor_Missile_ATGM_Swingfire_x5 is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -15139,7 +15139,7 @@ export Descriptor_Missile_ATGM_Swingfire_x5 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -15205,13 +15205,13 @@ export Descriptor_Missile_ATGM_9K115_Metis_M is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 1100 * Metre
+                    MaxSpeed        = 1200 * Metre
                     MaxAcceleration = 750 * Metre
                     AutoGyr         = 1.3962634015954636
                 )
@@ -15271,7 +15271,7 @@ export Descriptor_Missile_ATGM_9K115_Metis_M is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -17200,7 +17200,7 @@ export Descriptor_Missile_Javelin is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -17333,7 +17333,7 @@ export Descriptor_Missile_Javelin_LML is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -17399,13 +17399,13 @@ export Descriptor_Missile_M47_DRAGON is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
@@ -17465,7 +17465,7 @@ export Descriptor_Missile_M47_DRAGON is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -17531,13 +17531,13 @@ export Descriptor_Missile_M47_DRAGON_II is TEntityDescriptor
             (
                 DefaultConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
                 UncontrollableConfig = TGuidedMissileMovementConfigDescriptor
                 (
-                    MaxSpeed        = 800 * Metre
+                    MaxSpeed        = 900 * Metre
                     MaxAcceleration = 500 * Metre
                     AutoGyr         = 1.7453292519943295
                 )
@@ -17597,7 +17597,7 @@ export Descriptor_Missile_M47_DRAGON_II is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_1,
+                        ~/Capacite_Stress_ATGM,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -17730,7 +17730,7 @@ export Descriptor_Missile_MANPAD_Blowpipe is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -17863,7 +17863,7 @@ export Descriptor_Missile_MANPAD_FIM43 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -17996,7 +17996,7 @@ export Descriptor_Missile_MANPAD_FIM92 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -18129,7 +18129,7 @@ export Descriptor_Missile_MANPAD_Javelin is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -18262,7 +18262,7 @@ export Descriptor_Missile_MANPAD_Strela2M is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -18394,7 +18394,7 @@ export Descriptor_Missile_MANPAD_igla is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -18527,7 +18527,7 @@ export Descriptor_Missile_Mistral is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -18660,7 +18660,7 @@ export Descriptor_Missile_Mistral_Celtic_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -18793,7 +18793,7 @@ export Descriptor_Missile_SAM_9M311_Tunguska_x8 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -18926,7 +18926,7 @@ export Descriptor_Missile_SAM_9M33 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -19059,7 +19059,7 @@ export Descriptor_Missile_SAM_9M330_Tor_x8 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -19192,7 +19192,7 @@ export Descriptor_Missile_SAM_9M336_x3 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_3,
+                        ~/Capacite_Stress_Gros_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -19325,7 +19325,7 @@ export Descriptor_Missile_SAM_9M33M2_x6 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -19458,7 +19458,7 @@ export Descriptor_Missile_SAM_9M38M1_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_3,
+                        ~/Capacite_Stress_Gros_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -19591,7 +19591,7 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -19724,7 +19724,7 @@ export Descriptor_Missile_SAM_FIM92_Stinger_CS_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -19857,7 +19857,7 @@ export Descriptor_Missile_SAM_FIM92_Stinger_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -19990,7 +19990,7 @@ export Descriptor_Missile_SAM_FIM92C is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -20123,7 +20123,7 @@ export Descriptor_Missile_SAM_I_Hawk is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -20256,7 +20256,7 @@ export Descriptor_Missile_SAM_I_Hawk_x3 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_3,
+                        ~/Capacite_Stress_Gros_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -20389,7 +20389,7 @@ export Descriptor_Missile_SAM_Igla is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -20522,7 +20522,7 @@ export Descriptor_Missile_SAM_Igla1M is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -20655,7 +20655,7 @@ export Descriptor_Missile_SAM_IglaV is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -20788,7 +20788,7 @@ export Descriptor_Missile_SAM_IglaV_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -20921,7 +20921,7 @@ export Descriptor_Missile_SAM_MIM72A is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -21054,7 +21054,7 @@ export Descriptor_Missile_SAM_MIM72F is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -21187,7 +21187,7 @@ export Descriptor_Missile_SAM_MIM72G is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -21320,7 +21320,7 @@ export Descriptor_Missile_SAM_Mistral is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -21453,7 +21453,7 @@ export Descriptor_Missile_SAM_RAPIER is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -21586,7 +21586,7 @@ export Descriptor_Missile_SAM_RAPIER_FSA_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -21719,7 +21719,7 @@ export Descriptor_Missile_SAM_RAPIER_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -21852,7 +21852,7 @@ export Descriptor_Missile_SAM_RAPIER_x8 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -21985,7 +21985,7 @@ export Descriptor_Missile_SAM_ROLAND is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -22118,7 +22118,7 @@ export Descriptor_Missile_SAM_ROLAND_1 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -22251,7 +22251,7 @@ export Descriptor_Missile_SAM_ROLAND_1_x2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -22384,7 +22384,7 @@ export Descriptor_Missile_SAM_ROLAND_2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -22517,7 +22517,7 @@ export Descriptor_Missile_SAM_ROLAND_2_x2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -22650,7 +22650,7 @@ export Descriptor_Missile_SAM_ROLAND_3 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -22783,7 +22783,7 @@ export Descriptor_Missile_SAM_ROLAND_3_x2 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -22916,7 +22916,7 @@ export Descriptor_Missile_SAM_Strela1_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -23049,7 +23049,7 @@ export Descriptor_Missile_SAM_Strela10_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -23182,7 +23182,7 @@ export Descriptor_Missile_SAM_Strela10_x4_FASTA is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -23315,7 +23315,7 @@ export Descriptor_Missile_SAM_Strela2_x12 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -23448,7 +23448,7 @@ export Descriptor_Missile_SAM_Strela2_x4 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Aura_Commandement_2,
+                        ~/Capacite_Stress_Petit_AA,
                     ]
                     PostOrderSkillList = MAP [
                     ]

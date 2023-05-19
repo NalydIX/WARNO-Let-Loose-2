@@ -5,14 +5,14 @@ StukaAgilityMultiplicator is 2.5
 
 // Paramètrage du Dive //
 MinPitchForDive is (5 * Degre) // Pitch minimal autorisé pour un Dive
-MaxPitchForDive is (65 * Degre)  // Pitch maximal autorisé pour un Dive
+MaxPitchForDive is (80 * Degre)  // Pitch maximal autorisé pour un Dive
 MinDiveAlignmentDuration is 0.5 // Durée minimale d'alignement lors d'un Dive, en secondes
 
 // Paramètrage du DiveBomb //
 MinPitchForDiveBomb is (10 * Degre) // Pitch minimal autorisé pour un DiveBomb
 PitchForDiveBomb is (45 * Degre) // Pitch à essayer d'atteindre pour un DiveBomb
 MaxPitchForDiveBomb is (65 * Degre)  // Pitch maximal autorisé pour un DiveBomb
-DiveBombRecoveryDuration is 10 // Temps en secondes pendant lequel l'avion vol à basse altitude après avoir largué ses bombes
+DiveBombRecoveryDuration is 0 // Temps en secondes pendant lequel l'avion vol à basse altitude après avoir largué ses bombes
 
 // Paramètrage du dogfight constre des avions plus lents //
 SpeedRatioForAttackOnVerySlowAirplaneStrategy is 0.45
@@ -29,7 +29,7 @@ AirGroundMissileRangeRatioForCruiseAltitude is 2.0
 
 // Autres paramètres avions : DEMANDER AUX DEVS AVANT DE MODIFIER //
 MaxPitchSpeed is 30 // degrés/seconde
-MaxAltitude is (10000 * Metre)
+MaxAltitude is (12000 * Metre)
 MinAltitudeForRoll is (2000 * Metre)
 MinRollSpeedForRoll is 65 // degrés/seconde
 

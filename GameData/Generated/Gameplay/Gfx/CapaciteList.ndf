@@ -6,29 +6,29 @@ export Capacite_Aura_Commandement_1 is TCapaciteDescriptor
     DescriptorId     = GUID:{c5266c39-d304-4d30-8c15-7ff72e65cf4e}
     Name             = "Aura_Commandement_1"
     NameToken        = "None"
-    CumulEffect          = ~/CapaciteCumulEffect_oui
+    CumulEffect          = ~/CapaciteCumulEffect_jamais
     Declenchement        = ~/CapaciteDeclenchementType_automatique
-    TypeCible            = ~/CapaciteTypeCible_unite
-    TargetTeamFilter     = ~/CapaciteTargetFilter_ennemi
+    TypeCible            = ~/CapaciteTypeCible_position
+    TargetTeamFilter     = ~/CapaciteTargetFilter_allie
     InfluenceMapAlliance = ~/AllianceRelation/vide
     TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
     AreaShape            = ~/CapaciteAreaShape_circulaire
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
-    Radius              = 300.00 * Metre
-    Range               = 300.00 * Metre
+    Radius              = 1000.00 * Metre
+    Range               = 1250.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
     CastTime            = 0.00
-    Cooldown            = 0.00
+    Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
     AllowMovementDuringCast = True
-    CanBeCastFromTransport  = True
+    CanBeCastFromTransport  = False
     CastEffectDuration = -1.00
     CastEffectBound    = True
-    TargetEffect         = ~/UnitEffect_Default_Worried
-    TargetEffectDuration = 0.00
+    TargetEffect         = ~/UnitEffect_Gain_un_niveau_XP
+    TargetEffectDuration = 1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -38,20 +38,17 @@ export Capacite_Aura_Commandement_1 is TCapaciteDescriptor
     TargetInBuilding       = True
     TargetInTransport      = True
     TargetInSelf           = True
-    TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
-    DisplayRangeColor      = RGBA[0,0,0,0]
-    DisplayRangeThickness  = 0.00
+    TargetMySelf           = False
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_selected | ~/CapaciteFeedbackActivationMask_anyalliance
+    DisplayRangeColor      = RGBA[255,255,255,255]
+    DisplayRangeThickness  = 0.80
     Price = MAP[]
     TagsCiblePossible = [
-        "Char",
-        "ChasseurDeChar",
-        "AA_radar",
-        "Artillerie",
-        "Vehicule",
-        "Vehicule_Logistique",
-        "Canon_AA",
-        "Canon_AA_Standard",
+        "GagneXP",
+    ]
+    Conditions = [
+        ~/ConditionTagNotRaisedInUnit_Panique_1,
+        ~/ConditionTagRaisedInUnit_Hors_Transport_1,
     ]
 )
 export Capacite_Aura_Commandement_2 is TCapaciteDescriptor
@@ -59,29 +56,29 @@ export Capacite_Aura_Commandement_2 is TCapaciteDescriptor
     DescriptorId     = GUID:{3b515032-11c0-4948-9360-7e389019da94}
     Name             = "Aura_Commandement_2"
     NameToken        = "None"
-     CumulEffect          = ~/CapaciteCumulEffect_oui
+    CumulEffect          = ~/CapaciteCumulEffect_jamais
     Declenchement        = ~/CapaciteDeclenchementType_automatique
-    TypeCible            = ~/CapaciteTypeCible_unite
-    TargetTeamFilter     = ~/CapaciteTargetFilter_ennemi
+    TypeCible            = ~/CapaciteTypeCible_position
+    TargetTeamFilter     = ~/CapaciteTargetFilter_allie
     InfluenceMapAlliance = ~/AllianceRelation/vide
     TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
     AreaShape            = ~/CapaciteAreaShape_circulaire
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
-    Radius              = 1200.00 * Metre
-    Range               = 1200.00 * Metre
+    Radius              = 1000.00 * Metre
+    Range               = 1500.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
     CastTime            = 0.00
-    Cooldown            = 0.00
+    Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
     AllowMovementDuringCast = True
-    CanBeCastFromTransport  = True
+    CanBeCastFromTransport  = False
     CastEffectDuration = -1.00
     CastEffectBound    = True
-    TargetEffect         = ~/UnitEffect_Default_Stressed
-    TargetEffectDuration = 0.00
+    TargetEffect         = ~/UnitEffect_Gain_un_niveau_XP
+    TargetEffectDuration = 1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -91,14 +88,17 @@ export Capacite_Aura_Commandement_2 is TCapaciteDescriptor
     TargetInBuilding       = True
     TargetInTransport      = True
     TargetInSelf           = True
-    TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
-    DisplayRangeColor      = RGBA[0,0,0,0]
-    DisplayRangeThickness  = 0.00
+    TargetMySelf           = False
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_selected | ~/CapaciteFeedbackActivationMask_anyalliance
+    DisplayRangeColor      = RGBA[255,255,255,255]
+    DisplayRangeThickness  = 0.80
     Price = MAP[]
     TagsCiblePossible = [
-        "Air",
-        "Helo",
+        "GagneXP",
+    ]
+    Conditions = [
+        ~/ConditionTagNotRaisedInUnit_Panique_1,
+        ~/ConditionTagRaisedInUnit_Hors_Transport_1,
     ]
 )
 export Capacite_Aura_Commandement_3 is TCapaciteDescriptor
@@ -106,29 +106,29 @@ export Capacite_Aura_Commandement_3 is TCapaciteDescriptor
     DescriptorId     = GUID:{a946282c-af30-490b-b121-9184d813dc55}
     Name             = "Aura_Commandement_3"
     NameToken        = "None"
-    CumulEffect          = ~/CapaciteCumulEffect_oui
+    CumulEffect          = ~/CapaciteCumulEffect_jamais
     Declenchement        = ~/CapaciteDeclenchementType_automatique
-    TypeCible            = ~/CapaciteTypeCible_unite
-    TargetTeamFilter     = ~/CapaciteTargetFilter_ennemi
+    TypeCible            = ~/CapaciteTypeCible_position
+    TargetTeamFilter     = ~/CapaciteTargetFilter_allie
     InfluenceMapAlliance = ~/AllianceRelation/vide
     TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
     AreaShape            = ~/CapaciteAreaShape_circulaire
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
-    Radius              = 1200.00 * Metre
-    Range               = 1200.00 * Metre
+    Radius              = 1500.00 * Metre
+    Range               = 1750.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
     CastTime            = 0.00
-    Cooldown            = 0.00
+    Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
     AllowMovementDuringCast = True
-    CanBeCastFromTransport  = True
+    CanBeCastFromTransport  = False
     CastEffectDuration = -1.00
     CastEffectBound    = True
-    TargetEffect         = ~/UnitEffect_Default_Panicked
-    TargetEffectDuration = 0.00
+    TargetEffect         = ~/UnitEffect_Gain_un_niveau_XP
+    TargetEffectDuration = 1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -138,14 +138,17 @@ export Capacite_Aura_Commandement_3 is TCapaciteDescriptor
     TargetInBuilding       = True
     TargetInTransport      = True
     TargetInSelf           = True
-    TargetMySelf           = True
-    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
-    DisplayRangeColor      = RGBA[0,0,0,0]
-    DisplayRangeThickness  = 0.00
+    TargetMySelf           = False
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_selected | ~/CapaciteFeedbackActivationMask_anyalliance
+    DisplayRangeColor      = RGBA[255,255,255,255]
+    DisplayRangeThickness  = 0.80
     Price = MAP[]
     TagsCiblePossible = [
-        "Air",
-        "Helo",
+        "GagneXP",
+    ]
+    Conditions = [
+        ~/ConditionTagNotRaisedInUnit_Panique_1,
+        ~/ConditionTagRaisedInUnit_Hors_Transport_1,
     ]
 )
 export Capacite_Aura_capture_allie_solo is TCapaciteDescriptor
@@ -591,7 +594,7 @@ export Capacite_GSR is TCapaciteDescriptor
     Range               = 1.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
-    CastTime            = 1.00
+    CastTime            = 10.00
     Cooldown            = 0.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
@@ -600,7 +603,7 @@ export Capacite_GSR is TCapaciteDescriptor
     CastEffectDuration = -1.00
     CastEffectBound    = True
     TargetEffect         = ~/UnitEffect_GSR
-    TargetEffectDuration = 1.00
+    TargetEffectDuration = 10.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -1856,4 +1859,197 @@ export Capacite_sniper is TCapaciteDescriptor
     TagsCiblePossible = [
     ]
 
+)
+
+export Capacite_Stress_ATGM is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{c6f4771e-4ef6-4eca-9174-f25d68c05d4b}
+    Name             = "Stress_ATGM"
+    NameToken        = "None"
+    CumulEffect          = ~/CapaciteCumulEffect_oui
+    Declenchement        = ~/CapaciteDeclenchementType_automatique
+    TypeCible            = ~/CapaciteTypeCible_unite
+    TargetTeamFilter     = ~/CapaciteTargetFilter_ennemi
+    InfluenceMapAlliance = ~/AllianceRelation/vide
+    TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
+    AreaShape            = ~/CapaciteAreaShape_circulaire
+    InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
+    ActionRadiusWithBoundingBox = False
+    Radius              = 300.00 * Metre
+    Range               = 300.00 * Metre
+    AutomaticOrderRange = 0.00 * Metre
+    CastRangeTolerance  = 0.00 * Metre
+    CastTime            = 0.00
+    Cooldown            = 0.00
+    CheckVisibility     = True
+    AllowReflexDuringCast   = True
+    AllowMovementDuringCast = True
+    CanBeCastFromTransport  = True
+    CastEffectDuration = -1.00
+    CastEffectBound    = True
+    TargetEffect         = ~/UnitEffect_Stress_ATGM
+    TargetEffectDuration = 0.00
+    SelfEffectDuration   = 0.00
+    MinVirtualUnits         = 1
+    OrderMustSpreadTargets = False
+    MaxTargetNb            = -1
+    DivideEffect           = False
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+        "Char",
+        "ChasseurDeChar",
+        "AA_radar",
+        "Artillerie",
+        "Vehicule",
+        "Vehicule_Logistique",
+        "Canon_AA",
+        "Canon_AA_Standard",
+    ]
+)
+export Capacite_Stress_Petit_AA is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{e4fe6b17-f98e-4189-920b-e854b7d03b86}
+    Name             = "Stress_Petit_AA"
+    NameToken        = "None"
+     CumulEffect          = ~/CapaciteCumulEffect_oui
+    Declenchement        = ~/CapaciteDeclenchementType_automatique
+    TypeCible            = ~/CapaciteTypeCible_unite
+    TargetTeamFilter     = ~/CapaciteTargetFilter_ennemi
+    InfluenceMapAlliance = ~/AllianceRelation/vide
+    TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
+    AreaShape            = ~/CapaciteAreaShape_circulaire
+    InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
+    ActionRadiusWithBoundingBox = False
+    Radius              = 1200.00 * Metre
+    Range               = 1200.00 * Metre
+    AutomaticOrderRange = 0.00 * Metre
+    CastRangeTolerance  = 0.00 * Metre
+    CastTime            = 0.00
+    Cooldown            = 0.00
+    CheckVisibility     = True
+    AllowReflexDuringCast   = True
+    AllowMovementDuringCast = True
+    CanBeCastFromTransport  = True
+    CastEffectDuration = -1.00
+    CastEffectBound    = True
+    TargetEffect         = ~/UnitEffect_Stress_Petit_AA
+    TargetEffectDuration = 0.00
+    SelfEffectDuration   = 0.00
+    MinVirtualUnits         = 1
+    OrderMustSpreadTargets = False
+    MaxTargetNb            = -1
+    DivideEffect           = False
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+        "Air",
+        "Helo",
+    ]
+)
+export Capacite_Stress_Gros_AA is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{160a1ed1-aeba-4fd8-bc14-ac122327e2a0}
+    Name             = "Stress_GrosAA"
+    NameToken        = "None"
+    CumulEffect          = ~/CapaciteCumulEffect_oui
+    Declenchement        = ~/CapaciteDeclenchementType_automatique
+    TypeCible            = ~/CapaciteTypeCible_unite
+    TargetTeamFilter     = ~/CapaciteTargetFilter_ennemi
+    InfluenceMapAlliance = ~/AllianceRelation/vide
+    TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
+    AreaShape            = ~/CapaciteAreaShape_circulaire
+    InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
+    ActionRadiusWithBoundingBox = False
+    Radius              = 1200.00 * Metre
+    Range               = 1200.00 * Metre
+    AutomaticOrderRange = 0.00 * Metre
+    CastRangeTolerance  = 0.00 * Metre
+    CastTime            = 0.00
+    Cooldown            = 0.00
+    CheckVisibility     = True
+    AllowReflexDuringCast   = True
+    AllowMovementDuringCast = True
+    CanBeCastFromTransport  = True
+    CastEffectDuration = -1.00
+    CastEffectBound    = True
+    TargetEffect         = ~/UnitEffect_Stress_Gros_AA
+    TargetEffectDuration = 0.00
+    SelfEffectDuration   = 0.00
+    MinVirtualUnits         = 1
+    OrderMustSpreadTargets = False
+    MaxTargetNb            = -1
+    DivideEffect           = False
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+        "Air",
+        "Helo",
+    ]
+)
+export Capacite_Preparation is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{83aa0b74-a855-4d14-99b8-30a36fc046d4}
+    Name             = "Preparation"
+    NameToken        = "None"
+    CumulEffect          = ~/CapaciteCumulEffect_jamais
+    Declenchement        = ~/CapaciteDeclenchementType_automatique
+    TypeCible            = ~/CapaciteTypeCible_soi
+    TargetTeamFilter     = ~/CapaciteTargetFilter_joueur
+    InfluenceMapAlliance = ~/AllianceRelation/vide
+    TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
+    AreaShape            = ~/CapaciteAreaShape_soi
+    InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
+    ActionRadiusWithBoundingBox = True
+    Radius              = 1.00 * Metre
+    Range               = 1.00 * Metre
+    AutomaticOrderRange = 0.00 * Metre
+    CastRangeTolerance  = 0.00 * Metre
+    CastTime            = 120.00
+    Cooldown            = 0.00
+    CheckVisibility     = True
+    AllowReflexDuringCast   = False
+    AllowMovementDuringCast = False
+    CanBeCastFromTransport  = True
+    CastEffectDuration = -1.00
+    CastEffectBound    = False
+    TargetEffect         = ~/UnitEffect_RoF_plus_50pourcent
+    TargetEffectDuration = 1.00
+    SelfEffectDuration   = 0.00
+    MinVirtualUnits         = 1
+    OrderMustSpreadTargets = False
+    MaxTargetNb            = 1
+    DivideEffect           = False
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+    ]
 )

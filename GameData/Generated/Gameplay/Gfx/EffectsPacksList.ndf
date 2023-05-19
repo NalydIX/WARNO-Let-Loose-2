@@ -165,5 +165,8 @@ private EffectsPacksList is TGameplayEffectsPacksList
         ~/UnitEffect_resolute,
         ~/UnitEffect_security,
         ~/UnitEffect_sniper,
+        ~/UnitEffect_Stress_ATGM,
+        ~/UnitEffect_Stress_Petit_AA,
+        ~/UnitEffect_Stress_Gros_AA,
     ]
 )

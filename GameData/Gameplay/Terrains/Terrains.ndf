@@ -78,7 +78,9 @@ export ForetLegere is TGameplayTerrain
             ("howz", MAP [("infanterie",0.7)]),
             ("howz_bombe", MAP [("infanterie",0.7)]),
             ("fmballe", MAP [("infanterie",0.7)]),
-            ("roquette_ap", MAP [("infanterie",0.65)]),
+            ("suppress", MAP [("blindage",1.5)]),
+            ("suppressap", MAP [("blindage",1.5)]),
+            ("suppressdca", MAP [("blindage",1.5)])
         ]
     DebugColor = rgba[70, 252, 70, 255]
     DissimulationModifierGroundAir = 12
@@ -498,14 +500,14 @@ export EauPeuProfonde is TGameplayTerrain
     InflammabilityProbability = 0
     LocalizationToken = 'TER_WATE'
     Name = 'EauPeuProfonde'
-    SpeedModifierAllTerrainWheel = 1
-    SpeedModifierHalfTrack = 1
+    SpeedModifierAllTerrainWheel = 0.6
+    SpeedModifierHalfTrack = 0.6
     SpeedModifierInfantry = 0.8
-    SpeedModifierTrack = 0.3
-    SpeedModifierWheel = 0.2
+    SpeedModifierTrack = 0.7
+    SpeedModifierWheel = 0.6
     StealthBonus = 1
     //~~~~~~~~
-    SpeedModifierBoats = 0.3
+    SpeedModifierBoats = 1
     DissimulationSliceSizeInGameUnits = ~/DissimulationUnitSlice
     SDBMask = ~/NAMask_Terrain/EauPeuProfonde
     WorldLayerActiveMask = 3
@@ -687,11 +689,11 @@ export EauProfonde is TGameplayTerrain
     InflammabilityProbability = 0
     LocalizationToken = 'TER_DEEP_W'
     Name = 'EauProfonde'
-    SpeedModifierAllTerrainWheel = 0.3
-    SpeedModifierHalfTrack = 0.3
+    SpeedModifierAllTerrainWheel = 0.6
+    SpeedModifierHalfTrack = 0.6
     SpeedModifierInfantry = 0.8
-    SpeedModifierTrack = 0.3
-    SpeedModifierWheel = 0.3
+    SpeedModifierTrack = 0.7
+    SpeedModifierWheel = 0.6
     StealthBonus = 1
     //~~~~~~~~
     SpeedModifierBoats = 1
