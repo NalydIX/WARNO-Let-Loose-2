@@ -1916,7 +1916,7 @@ export Capacite_Stress_ATGM is TCapaciteDescriptor
 )
 export Capacite_Stress_Petit_AA is TCapaciteDescriptor
 (
-    DescriptorId     = GUID:{e4fe6b17-f98e-4189-920b-e854b7d03b86}
+    DescriptorId     = GUID:{e4fe6b17-f98e-4189-920b-e854b7d03b88}
     Name             = "Stress_Petit_AA"
     NameToken        = "None"
      CumulEffect          = ~/CapaciteCumulEffect_oui
