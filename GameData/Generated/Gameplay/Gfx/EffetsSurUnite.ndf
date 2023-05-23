@@ -2960,7 +2960,7 @@ export UnitEffect_Stress_Gros_AA is TEffectsPackDescriptor
         TEffectInflictSuppressDamageDescriptor
         (
             ModifierType             = ~/ModifierType_Additionnel
-            SuppressDamageValue      = 100
+            SuppressDamageValue      = 60
         ),
     ]
 )
