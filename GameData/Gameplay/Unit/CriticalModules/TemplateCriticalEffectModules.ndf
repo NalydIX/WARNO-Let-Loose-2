@@ -1238,11 +1238,14 @@ PackEffetCritique_VehiculeStandard is
     CriticalEffect_AmmoExplosion(Roll = (4,4)),
     CriticalEffect_FuelExplosion(Roll = (5,5)),
     CriticalEffect_CompReset(Roll = (6,6)),
-    CriticalEffect_BailedOut(Roll = (7,7)),
+    CriticalEffect_ShooterKO(Roll = (7,7)),
     CriticalEffect_ArmourCracked (Roll = (8,8)),
     CriticalEffect_Spalling (Roll = (9,9)),
     CriticalEffect_TracksBroken(Roll = (10,10)),
     CriticalEffect_TurretStuck(Roll = (11,11)),
+    CriticalEffect_DriverKO(Roll = (12,12)),
+    CriticalEffect_SightDamaged(Roll = (13,13)),
+    CriticalEffect_TransmissionDamaged(Roll = (14,14)),
 ]
 
 PackEffetCritique_VehiculeNonArme is
