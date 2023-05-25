@@ -2,12 +2,11 @@
 ETerrainsQueryContext is TBaseClass
 (
     UnknownContext                          is 0
-    TerrainLayerQuery                       is 1
-    VisionQuery                             is 2
-    VehicleObstaclesQuery                   is 3
-    AmphibianVehicleObstaclesQuery          is 4
-    InfantryObstaclesQuery                  is 5
-    HelicoObstaclesQuery                    is 6
-    SpeedModifierGroundWaterLayerQuery      is 7
-    SpeedModifierObjectLayerQuery           is 8
+    VisionQuery                             is 1
+    VehicleObstaclesQuery                   is 2
+    AmphibianVehicleObstaclesQuery          is 3
+    InfantryObstaclesQuery                  is 4
+    HelicoObstaclesQuery                    is 5
+    SpeedModifierGroundWaterLayerQuery      is 6
+    SpeedModifierObjectLayerQuery           is 7
 )

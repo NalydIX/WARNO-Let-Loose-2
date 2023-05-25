@@ -4934,6 +4934,68 @@ Gfx_Gazelle_20mm_reco_FR_Autogen is TacticAerialDepictionTemplate
             SubDepiction_Pilote2(MeshDescriptorHigh = MeshDescriptor_Pilote_Helico_US MeshDescriptorLow = MeshDescriptor_Pilote_Helico_US_LOW),
         ]
 )
+// Dépiction de l'unité Gazelle_CMD_UK
+Gfx_Gazelle_CMD_UK_Autogen is TacticAerialDepictionTemplate
+(
+        CoatingName = 'Gazelle_CMD_UK'
+        Selector = SpecificHelicoDepictionSelector
+        Alternatives = Alternatives_Gazelle_CMD_UK
+
+        Operators = 
+        [
+            DepictionOperator_MovementSound_SM_Helico_Gazelle,
+            DepictionOperator_CriticalEffects,
+            DepictionOperator_HelicopterLanding,
+            DepictionOperator_GroundPuff_Helico,
+            DepictionOperator_ShadowPointCloudProvider,
+            DepictionOperator_Rotors
+            (
+                RotorList = 
+                [
+                    TRotor
+                    (
+                        BladesBoneName = "helice_ls_1"
+                        BlurActionId = 
+                        [
+                            "FX_Helice_1",
+                        ]
+                        Clockwise = False
+                        NbBlade = 3
+                        RotationAxis = VECTOR[0, 0, 1]
+                        RotationSpeed = 242
+                        RotorBoneName = "bloc_moteur_1"
+                    ),
+                    TRotor
+                    (
+                        BladesBoneName = "helice_ls_2"
+                        BlurActionId = 
+                        [
+                            "FX_Helice_2",
+                        ]
+                        Clockwise = False
+                        NbBlade = 8
+                        RotationAxis = VECTOR[0, 1, 0]
+                        RotationSpeed = 242
+                        RotorBoneName = "bloc_moteur_2"
+                    ),
+                ]
+            ),
+            DepictionOperator_Feedback_Degat_Level1,
+            DepictionOperator_Feedback_Degat_Level2,
+            DepictionOperator_Heat,
+        ]
+        Actions = MAP[
+                ]
+                + DepictionAction_Stress_And_Wrecked_Helicopter
+                + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 1300 PaleCount = 3 RotationAxis = VECTOR[0, 0, 1] SousMobile = "bloc_moteur_1" ))]
+                + MAP [ (['FX_Helice_2'], Template_DepictionAction_Rotor( PaleLength = 100 PaleCount = 8 RotationAxis = VECTOR[0, 1, 0] SousMobile = "bloc_moteur_2" ))]
+                + DepictionAction_CriticalFX_Helicopter
+
+        SubDepictions = [
+            SubDepiction_Pilote1(MeshDescriptorHigh = MeshDescriptor_Pilote_Helico_UK MeshDescriptorLow = MeshDescriptor_Pilote_Helico_UK_LOW),
+            SubDepiction_Pilote2(MeshDescriptorHigh = MeshDescriptor_Pilote_Helico_UK MeshDescriptorLow = MeshDescriptor_Pilote_Helico_UK_LOW),
+        ]
+)
 // Dépiction de l'unité Gazelle_HOT_2_FR
 Op_Gazelle_HOT_2_FR_Weapon1 is DepictionOperator_WeaponMissileCarriageFire
 (

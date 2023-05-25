@@ -1309,6 +1309,12 @@ Texture_Button_Unit_GAZ_66_SOV is TUIResourceTextureWithUsefulnessMask
     CivMask  = CivMask/Common
     FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/GAZ_66_SOV.png'
 )
+Texture_Button_Unit_GAZ_66_supply_SOV is TUIResourceTextureWithUsefulnessMask
+(
+    TypeMask = TypeMask/BuildMenu
+    CivMask  = CivMask/Common
+    FileName = 'Assets/2D/Interface/Common/UnitsIcons/Allemagne/default.png'
+)
 Texture_Button_Unit_Gendarmerie_FR is TUIResourceTextureWithUsefulnessMask
 (
     TypeMask = TypeMask/BuildMenu
@@ -3842,6 +3848,12 @@ Texture_Button_Unit_Gazelle_20mm_reco_FR is TUIResourceTextureWithUsefulnessMask
     CivMask  = CivMask/Common
     FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/Gazelle_20mm_reco_FR.png'
 )
+Texture_Button_Unit_Gazelle_CMD_UK is TUIResourceTextureWithUsefulnessMask
+(
+    TypeMask = TypeMask/BuildMenu
+    CivMask  = CivMask/Common
+    FileName = 'Assets/2D/Interface/Common/UnitsIcons/EU/Gazelle_CMD_UK.png'
+)
 Texture_Button_Unit_Gazelle_HOT_2_FR is TUIResourceTextureWithUsefulnessMask
 (
     TypeMask = TypeMask/BuildMenu
@@ -5221,6 +5233,7 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
         ("Texture_Button_Unit_GAZ_66B_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_GAZ_66B_SOV), ]),
         ("Texture_Button_Unit_GAZ_66B_ZU_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_GAZ_66B_ZU_SOV), ]),
         ("Texture_Button_Unit_GAZ_66_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_GAZ_66_SOV), ]),
+        ("Texture_Button_Unit_GAZ_66_supply_SOV", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_GAZ_66_supply_SOV), ]),
         ("Texture_Button_Unit_Gendarmerie_FR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Gendarmerie_FR), ]),
         ("Texture_Button_Unit_Gepard_1A2_RFA", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Gepard_1A2_RFA), ]),
         ("Texture_Button_Unit_GreenBerets_CMD_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_GreenBerets_CMD_US), ]),
@@ -5643,6 +5656,7 @@ UnitButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
         ("Texture_Button_Unit_CH53_Sea_Stallion_US", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_CH53_Sea_Stallion_US), ]),
         ("Texture_Button_Unit_Gazelle_20mm_FR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Gazelle_20mm_FR), ]),
         ("Texture_Button_Unit_Gazelle_20mm_reco_FR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Gazelle_20mm_reco_FR), ]),
+        ("Texture_Button_Unit_Gazelle_CMD_UK", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Gazelle_CMD_UK), ]),
         ("Texture_Button_Unit_Gazelle_HOT_2_FR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Gazelle_HOT_2_FR), ]),
         ("Texture_Button_Unit_Gazelle_HOT_FR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Gazelle_HOT_FR), ]),
         ("Texture_Button_Unit_Gazelle_Mistral_FR", MAP [( ~/ComponentState/Normal, ~/Texture_Button_Unit_Gazelle_Mistral_FR), ]),

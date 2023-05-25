@@ -415,6 +415,12 @@ Alternatives_Gazelle_20mm_reco_FR is
     DepictionDescriptor_LOD_HelicoMid( MeshDescriptor = Modele_Gazelle_20mm_reco_FR_MID ),
     DepictionDescriptor_LOD_HelicoLow( MeshDescriptor = Modele_Gazelle_20mm_reco_FR_LOW ),
 ]
+Alternatives_Gazelle_CMD_UK is 
+[
+    DepictionDescriptor_LOD_HelicoHigh( MeshDescriptor = Modele_Gazelle_CMD_UK ),
+    DepictionDescriptor_LOD_HelicoMid( MeshDescriptor = Modele_Gazelle_CMD_UK_MID ),
+    DepictionDescriptor_LOD_HelicoLow( MeshDescriptor = Modele_Gazelle_CMD_UK_LOW ),
+]
 Alternatives_Gazelle_HOT_2_FR is 
 [
     DepictionDescriptor_LOD_HelicoHigh( MeshDescriptor = Modele_Gazelle_HOT_2_FR ),

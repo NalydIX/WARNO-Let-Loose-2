@@ -10959,6 +10959,41 @@ export Descriptor_ShowRoomUnit_GAZ_66_SOV is TEntityDescriptor
         ),
     ]
 )
+export Descriptor_ShowRoomUnit_GAZ_66_supply_SOV is TEntityDescriptor
+(
+    DescriptorId        = GUID:{0956a3ce-7e6e-45f1-9293-72666a2ae1ad}
+    ClassNameForDebug   = "ShowRoomUnit_GAZ_66_supply_SOV"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Logistic
+            TypeUnitFormation                = 'Supply'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_GAZ_66_supply_SOV_Showroom_Autogen
+            GameplayBBoxBoneName               = 'chassis'
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = False
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Vehicle'
+            SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
+)
 export Descriptor_ShowRoomUnit_Gendarmerie_FR is TEntityDescriptor
 (
     DescriptorId        = GUID:{d4c871a2-2345-437f-af81-29bc6f0dab38}
@@ -32407,6 +32442,41 @@ export Descriptor_ShowRoomUnit_Gazelle_20mm_reco_FR is TEntityDescriptor
         (
             Default        = $/GFX/Everything/WeaponDescriptor_Gazelle_20mm_reco_FR
             Selection      = [~/NilDescriptorIfCadavre]
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'BigVehicle'
+            SpawnType = EShowroomSpawnType/Helico
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_Gazelle_CMD_UK is TEntityDescriptor
+(
+    DescriptorId        = GUID:{61dc29c7-eb9a-4187-bcc3-780cb7cb5588}
+    ClassNameForDebug   = "ShowRoomUnit_Gazelle_CMD_UK"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'UK'
+            AcknowUnitType                   = ~/TAcknowUnitType_HeliAttack
+            TypeUnitFormation                = 'None'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_Gazelle_CMD_UK_Showroom_Autogen
+            GameplayBBoxBoneName               = 'chassis'
         ),
         ~/LinkTeamModuleDescriptor,
         ~/EffectApplierModuleDescriptor,

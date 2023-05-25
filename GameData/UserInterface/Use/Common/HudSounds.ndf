@@ -54,3 +54,11 @@ HudSoundOnObjectiveLost is TemplateSoundDescriptor
 (
     FileName  = "GameData:/Assets/Sons/SFX/SA/Test_16b_event_05.wav"
 )
+HudSoundOnVictory is TemplateSoundDescriptor
+(
+    FileName  = "GameData:/Assets/Sons/Solo/MUSIC_VICTORY.ogg"
+)
+HudSoundOnDefeat is TemplateSoundDescriptor
+(
+    FileName  = "GameData:/Assets/Sons/Solo/MUSIC_DEFEAT.ogg"
+)

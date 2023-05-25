@@ -314,6 +314,10 @@ Texture_Interface_Weapon_satchel is TUIResourceTexture_Common
 (
     FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/satchel.png"
 )
+Texture_Interface_Weapon_DShKM is TUIResourceTexture_Common
+(
+    FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/DShKM.png"
+)
 Texture_Interface_Weapon_12_7_mm_M2HB is TUIResourceTexture_Common
 (
     FileName = "Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/12_7_mm_M2HB.png"
@@ -1054,6 +1058,7 @@ WeaponAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Interface_Weapon_CanonAir_Mauser_BK_27mm", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_CanonAir_Mauser_BK_27mm)]),
         ("Texture_Interface_Weapon_nr30", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_nr30)]),
         ("Texture_Interface_Weapon_satchel", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_satchel)]),
+        ("Texture_Interface_Weapon_DShKM", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_DShKM)]),
         ("Texture_Interface_Weapon_12_7_mm_M2HB", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_12_7_mm_M2HB)]),
         ("Texture_Interface_Weapon_NSVT", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_NSVT)]),
         ("Texture_Interface_Weapon_m3p", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_m3p)]),

@@ -776,6 +776,11 @@ GhostDepiction_GAZ_66_SOV is GhostVehicleDepictionTemplate
     Selector = Selector_GAZ_66_SOV
     Alternatives = Alternatives_GAZ_66_SOV
 )
+GhostDepiction_GAZ_66_supply_SOV is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_GAZ_66_supply_SOV
+    Alternatives = Alternatives_GAZ_66_supply_SOV
+)
 GhostDepiction_Gepard_1A2_RFA is GhostVehicleDepictionTemplate
 (
     Selector = Selector_Gepard_1A2_RFA

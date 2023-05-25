@@ -5,7 +5,7 @@ export Challenge_Defense_Dynamic_Filler is TMacroActionDescriptor_CorridorDynami
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_BasedOnNumberOfCorridors NumberLaunchBasedOnGenerationType = 1),
         TAirStrikeSettingHolder(Setting = ~/BasicAirstrikeSupport),
-        TArtilleryAmountSettingHolder(InMapArtilleryAmount = 2 OutMapArtilleryAmount = 0),
+        TArtilleryAmountSettingHolder(ArtilleryAmount = 2),
         TMacroActionProductionSettingHolder(PoolModelList = [ ~/Pool_Defense_Filler]),
         TIgnoreSafePathSettingHolder(),
     ]

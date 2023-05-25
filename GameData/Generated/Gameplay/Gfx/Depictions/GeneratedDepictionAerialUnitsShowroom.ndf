@@ -1189,6 +1189,26 @@ Gfx_Gazelle_20mm_reco_FR_Showroom_Autogen is ShowroomAerialDepictionTemplate
         ),
     ]
 )
+Gfx_Gazelle_CMD_UK_Showroom_Autogen is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = Modele_Gazelle_CMD_UK
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = VECTOR[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = VECTOR[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+)
 Gfx_Gazelle_HOT_2_FR_Showroom_Autogen is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = Modele_Gazelle_HOT_2_FR

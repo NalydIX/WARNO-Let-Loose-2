@@ -61,14 +61,6 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
                     EVictoryType/Draw,  //ToCapture
                     EVictoryType/Draw,  //CapturedNotActive
                 ]
-
-                MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
-                [
-                    0,  //NotActive
-                    0.5,  //ToDefend
-                    -0.5,  //ToCapture
-                    0,  //CapturedNotActive
-                ]
             )
         ),
         (
@@ -81,14 +73,6 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
                     EVictoryType/TotalDefeat,   //ToDefend
                     EVictoryType/TotalDefeat,   //ToCapture
                     EVictoryType/TotalDefeat,   //CapturedNotActive
-                ]
-
-                MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
-                [
-                    -1.5,  //NotActive
-                    -1.5,  //ToDefend
-                    -1.5,  //ToCapture
-                    -1.5,  //CapturedNotActive
                 ]
             )
         ),
@@ -103,14 +87,6 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
                     EVictoryType/MajorDefeat,   //ToCapture
                     EVictoryType/MajorDefeat,   //CapturedNotActive
                 ]
-
-                MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
-                [
-                    -1,  //NotActive
-                    -1,  //ToDefend
-                    -1,  //ToCapture
-                    -1,  //CapturedNotActive
-                ]
             )
         ),
         (
@@ -123,14 +99,6 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
                     EVictoryType/MinorDefeat,   //ToDefend
                     EVictoryType/MinorDefeat,   //ToCapture
                     EVictoryType/MinorDefeat,   //CapturedNotActive
-                ]
-
-                MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
-                [
-                    -0.5,  //NotActive
-                    -0.5,  //ToDefend
-                    -0.5,  //ToCapture
-                    -0.5,  //CapturedNotActive
                 ]
             )
         ),
@@ -145,14 +113,6 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
                     EVictoryType/Draw,   //ToCapture
                     EVictoryType/Draw,   //CapturedNotActive
                 ]
-
-                MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
-                [
-                    -1,  //NotActive
-                    -1,  //ToDefend
-                    -1,  //ToCapture
-                    -1,  //CapturedNotActive
-                ]
             )
         ),
         (
@@ -165,14 +125,6 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
                     EVictoryType/Draw,   //ToDefend
                     EVictoryType/Draw,   //ToCapture
                     EVictoryType/Draw,   //CapturedNotActive
-                ]
-
-                MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
-                [
-                    0,  //NotActive
-                    0,  //ToDefend
-                    0,  //ToCapture
-                    0,  //CapturedNotActive
                 ]
             )
         ),
@@ -187,14 +139,6 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
                     EVictoryType/Draw,   //ToCapture
                     EVictoryType/Draw,   //CapturedNotActive
                 ]
-
-                MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
-                [
-                    0.5,  //NotActive
-                    0.5,  //ToDefend
-                    0.5,  //ToCapture
-                    0.5,  //CapturedNotActive
-                ]
             )
         ),
         (
@@ -208,14 +152,6 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
                     EVictoryType/MinorVictory,   //ToCapture
                     EVictoryType/MinorVictory,   //CapturedNotActive
                 ]
-
-                MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
-                [
-                    1,  //NotActive
-                    1,  //ToDefend
-                    1,  //ToCapture
-                    1,  //CapturedNotActive
-                ]
             )
         ),
         (
@@ -228,14 +164,6 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
                     EVictoryType/MajorVictory,   //ToDefend
                     EVictoryType/MajorVictory,   //ToCapture
                     EVictoryType/MajorVictory,   //CapturedNotActive
-                ]
-
-                MinBalanceOfPowerForAllPhaseNeededToAttackForObjectiveStatus =
-                [
-                    1.5,  //NotActive
-                    1.5,  //ToDefend
-                    1.5,  //ToCapture
-                    1.5,  //CapturedNotActive
                 ]
             )
         ),

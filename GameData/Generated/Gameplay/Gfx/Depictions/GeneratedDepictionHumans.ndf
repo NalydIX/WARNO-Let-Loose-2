@@ -1299,6 +1299,15 @@ HumanSubDepictions_GAZ_66_SOV is
     ),
 ]
 HumanSubDepictionsShowroom_GAZ_66_SOV is []
+HumanSubDepictions_GAZ_66_supply_SOV is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = MeshDescriptor_Driver_SOV
+        MeshDescriptorLow = MeshDescriptor_Driver_SOV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_GAZ_66_supply_SOV is []
 HumanSubDepictions_HEMTT_US is 
 [
     SubDepiction_Driver
@@ -3175,6 +3184,7 @@ MAP[
     ("GAZ_66B_SOV", 1),
     ("GAZ_66B_ZU_SOV", 3),
     ("GAZ_66_SOV", 1),
+    ("GAZ_66_supply_SOV", 1),
     ("HEMTT_US", 1),
     ("HMGteam_AANF1_FR", 2),
     ("HMGteam_AANF1_para_FR", 2),
@@ -3413,6 +3423,7 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Servant_Spe_D_VDV SelectorId = [ "GAZ_66B_ZU_SOV", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Servant_G_VDV SelectorId = [ "GAZ_66B_ZU_SOV", "03" ] ),
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Driver_SOV SelectorId = [ "GAZ_66_SOV", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Driver_SOV SelectorId = [ "GAZ_66_supply_SOV", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Driver_US SelectorId = [ "HEMTT_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Servant_G_FR SelectorId = [ "HMGteam_AANF1_FR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = MeshDescriptor_Servant_D_FR SelectorId = [ "HMGteam_AANF1_FR", "02" ] ),

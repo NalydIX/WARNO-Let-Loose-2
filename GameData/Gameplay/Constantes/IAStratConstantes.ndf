@@ -11,7 +11,6 @@ export IAStratConstantes is TIAStratConstantesDescriptor_Specific
 
     // AutoDeploy
     AutoDeployNumberOfFrameWithoutProduction = 3 // nombre de frame sans production pour considérer qu'on a fini de déployer automatiquement
-    DefaultIALevelForAutoDeploy = IADifficulty/Normal
 
     SeedForIAStrat = 0 //Mettre a 0 pour une seed changeante
 
@@ -70,8 +69,8 @@ export IAStratConstantes is TIAStratConstantesDescriptor_Specific
     ForbidToLoadNewUnits = false // Ce paramètre a true empêche de charger une unité qu'on ne transporte pas à la base (applicable aux transports qui spawnent préchargés)
 
     //--------------- Lancement de l'IA et choix de couloir ----------------------------------//
-    //Delay maximum avant le demarrage de l'IA, pour placement du flare permettent au joueur de jouer là ou il veut (secondes)
-    IAStartDelay = 7.0
+    //Delay maximum avant le demarrage de l'IA, pour placement du flare permettant au joueur de jouer là ou il veut (secondes)
+    IAStartDelay = 10.0
 
     MaxNbTickWithoutUpdateAcceptable = 3
 
@@ -426,8 +425,7 @@ AirstrikeConstantes is TIAStratAirstrikeConstantes
 
 ArtilleryStrikeConstantes is TIAStratArtilleryStrikeConstantes
 (
-    OutMapArtilleryStrikeSupportOffset = 2000 * Metre // Les artilleries hors map lançant un tir de barrage en soutien viseront à cette distance derrière l'ennemi
-    InMapArtilleryStrikeSupportOffset = 1000 * Metre // Les artilleries sur carte lançant un tir Smoke en soutien viseront à cette distance derrière l'ennemi
+    ArtilleryStrikeSupportOffset = 1000 * Metre // Les artilleries sur carte lançant un tir Smoke en soutien viseront à cette distance derrière l'ennemi
     SupportStrikeRatioForMissionSupport = 0.3 // Ratio Tir pour tuer / Tir de soutien (Smoke ou barrage) lors du support de mission (0 : pas de Smoke, 1 : que des Smoke)
     ArtilleryStrikeThreatBonusPerTags =  // Multiplicateur appliqué lors du calcul de la menace d'unité. On applique le premier bonus qui match les tags de notre unité (1 par défaut)
     [
@@ -444,7 +442,6 @@ ArtilleryStrikeConstantes is TIAStratArtilleryStrikeConstantes
     ]
 
     ArtilleryRangeRatioPosition = 0.30
-    OutMapNeededTargetValueToShootModifier = 2.0  // Modificateur des valeurs necessaire pour tirer pour l'artillerie offmap
 )
 
 //--------------------------------------------------------------------------------------//

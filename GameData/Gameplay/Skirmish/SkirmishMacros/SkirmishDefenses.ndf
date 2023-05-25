@@ -50,7 +50,7 @@ is TMacroActionDescriptor_CorridorDefense_Specific
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = <NumberLaunchBasedOnGenerationType>),
         TAirStrikeSettingHolder(Setting = ~/BasicAirstrikeSupport),
-        TArtilleryAmountSettingHolder(InMapArtilleryAmount = 1 OutMapArtilleryAmount = 0),
+        TArtilleryAmountSettingHolder(ArtilleryAmount = 1),
         TSupportSettingHolder(SettingList = [Renfort_AT]),
         TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible]
         PoolModelList = <PoolModelList>
@@ -81,7 +81,7 @@ is TMacroActionDescriptor_CorridorDynamicDefense_Specific
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = <NumberLaunchBasedOnGenerationType>),
         TAirStrikeSettingHolder(Setting = ~/BasicAirstrikeSupport),
-        TArtilleryAmountSettingHolder(InMapArtilleryAmount = 1 OutMapArtilleryAmount = 0),
+        TArtilleryAmountSettingHolder(ArtilleryAmount = 1),
         TSupportSettingHolder(SettingList = [Renfort_AT]),
         TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible]
         PoolModelList = <PoolModelList>
@@ -153,7 +153,7 @@ export Defense_Filler is TMacroActionDescriptor_CorridorDefense_Specific
         TGenerationSettingHolder(GenerationType = TGenerationType_BasedOnNumberOfCorridors NumberLaunchBasedOnGenerationType = 1),
         TAirStrikeSettingHolder(DifficultyList = [IADifficulty/TresFacile]  Setting = ~/VEasy_BasicAirstrikeSupport),
         TAirStrikeSettingHolder(Setting = ~/BasicAirstrikeSupport),
-        TArtilleryAmountSettingHolder(InMapArtilleryAmount = 2 OutMapArtilleryAmount = 0),
+        TArtilleryAmountSettingHolder(ArtilleryAmount = 2),
         TMacroActionProductionSettingHolder(PoolModelList = [ ~/Pool_Defense_Filler]),
         TIgnoreSafePathSettingHolder(),
     ]
@@ -398,7 +398,7 @@ export Defense_Objectif is TMacroActionDescriptor_Defense_Specific
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_BasedOnNumberOfObjectives NumberLaunchBasedOnGenerationType = 1 ConsiderOnlyOwnedObjectives = true ConsiderOnlyAssignedCorridors = true),
         TAirStrikeSettingHolder(Setting = ~/BasicAirstrikeSupport),
-        TArtilleryAmountSettingHolder(InMapArtilleryAmount = 1 OutMapArtilleryAmount = 0),
+        TArtilleryAmountSettingHolder(ArtilleryAmount = 1),
         TSupportSettingHolder(SettingList = [Renfort_AT]),
         TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [ ~/Pool_Defense_Objectif]),
         TForcedPlacementSettingHolder(OrderedPrioritaryZoneWeightList = [~/CommandZoneCustomWeighForIAStrat] ForceInAssignedCorridor = true),
@@ -460,7 +460,7 @@ is TMacroActionDescriptor_Defense_Specific
     [
         TGenerationSettingHolder(GenerationType = <GenerationType> NumberLaunchBasedOnGenerationType = 1 ConsiderOnlyAssignedCorridors = true),
         TAirStrikeSettingHolder(Setting = ~/BasicAirstrikeSupport),
-        TArtilleryAmountSettingHolder(InMapArtilleryAmount = 1 OutMapArtilleryAmount = 0),
+        TArtilleryAmountSettingHolder(ArtilleryAmount = 1),
         TSupportSettingHolder(SettingList = [Renfort_AT]),
         TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [ <Pool> ]),
         TForcedPlacementSettingHolder(OrderedPrioritaryZoneWeightList = [~/CommandZoneCustomWeighForIAStrat] ForceInAssignedCorridor = true),
@@ -471,6 +471,12 @@ is TMacroActionDescriptor_Defense_Specific
 //-------------------------------------------------------------------------
 export Defense_Objectif_BKT is Template_Defense_Objectif_BKT
 (
+)
+
+//-------------------------------------------------------------------------
+export Defense_Objectif_BKT_Scaling is Template_Defense_Objectif_BKT
+(
+    GenerationType = ~/TGenerationType_FixedSize
 )
 
 //-------------------------------------------------------------------------

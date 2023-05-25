@@ -214,9 +214,7 @@ DeviceType is TBaseClass
 WindowMode is TBaseClass
 (
     Windowed            is 0
-    Fullscreen          is 1
     FullscreenWindowed  is 2
-    Count               is 3
 )
 
 //-----------------------------------------------------------------------------

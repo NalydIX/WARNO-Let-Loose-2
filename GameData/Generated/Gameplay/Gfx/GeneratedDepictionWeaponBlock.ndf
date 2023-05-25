@@ -1881,14 +1881,7 @@ Weapon_Canon_HE_100mm_D10T_late is TCompositeHappening
         SFXWeapon_Canon_HE_100mm_D10T_late,
     ]
 )
-Weapon_HMG_12_7_mm_NSVT is TCompositeHappening
-(
-    SubHappenings = 
-    [
-        FXWeapon_HMG_12_7_mm_NSVT,
-        SFXWeapon_HMG_12_7_mm_NSVT,
-    ]
-)
+Weapon_HMG_12_7_mm_DShKM is FXWeapon_HMG_12_7_mm_DShKM
 Weapon_Canon_AP_100mm_D10T_early is TCompositeHappening
 (
     SubHappenings = 
@@ -1919,6 +1912,14 @@ Weapon_Canon_HE_115mm_U5TS_T62M is TCompositeHappening
     [
         FXWeapon_Canon_HE_115mm_U5TS_T62M,
         SFXWeapon_Canon_HE_115mm_U5TS_T62M,
+    ]
+)
+Weapon_HMG_12_7_mm_NSVT is TCompositeHappening
+(
+    SubHappenings = 
+    [
+        FXWeapon_HMG_12_7_mm_NSVT,
+        SFXWeapon_HMG_12_7_mm_NSVT,
     ]
 )
 Weapon_Canon_AP_125_mm_2A46_T64B_very_late is TCompositeHappening

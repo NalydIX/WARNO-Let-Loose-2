@@ -346,6 +346,11 @@ GhostDepiction_Gazelle_20mm_reco_FR is GhostAerialDepictionTemplate
     Alternatives = Alternatives_Gazelle_20mm_reco_FR
     Selector = SpecificHelicoDepictionSelector
 )
+GhostDepiction_Gazelle_CMD_UK is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_Gazelle_CMD_UK
+    Selector = SpecificHelicoDepictionSelector
+)
 GhostDepiction_Gazelle_HOT_2_FR is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_Gazelle_HOT_2_FR

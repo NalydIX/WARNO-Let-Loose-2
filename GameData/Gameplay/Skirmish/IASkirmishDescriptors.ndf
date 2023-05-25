@@ -112,11 +112,3 @@ private SkirmishList is TIASkirmishList_Specific
         ]),
     ]
 )
-
-export AutoDeploy_Strategy_Seletor is TIAGeneralStrategySelector
-(
-    IAStrategyConfiguration = MAP
-    [
-        (IADifficulty/AnyDifficulty, ~/AutoDeployStrategy),
-    ]
-)

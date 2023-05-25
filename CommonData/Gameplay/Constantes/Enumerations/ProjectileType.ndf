@@ -5,5 +5,6 @@ EProjectileType is TBaseClass
     Artillerie                       is 1
     Balle                            is 2
     Bombe                            is 3
-    GuidedMissile                    is 4
+    Grenade                          is 4
+    GuidedMissile                    is 5
 )

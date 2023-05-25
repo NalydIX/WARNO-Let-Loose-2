@@ -14201,6 +14201,69 @@ Descriptor_UnitCadavre_GAZ_66_SOV is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_GAZ_66_supply_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{064dc0f5-b2c1-4279-8b99-3b4f9abb73ed}
+    ClassNameForDebug  = 'Unit_CadavreGAZ_66_supply_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Logistic
+            TypeUnitFormation                = 'Supply'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = True
+                KillAsInfanterie = False
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_ravitaillement
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_GAZ_66_supply_SOV/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_GAZ_66_supply_SOV/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_GAZ_66_supply_SOV/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_GAZ_66_supply_SOV/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_GAZ_66_supply_SOV/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_GAZ_66_supply_SOV/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_GAZ_66_supply_SOV/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_GAZ_66_supply_SOV/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Gendarmerie_FR is TEntityDescriptor
 (
     DescriptorId       = GUID:{e431215b-a07e-4f14-9738-63ccd4537d30}
@@ -41510,6 +41573,71 @@ Descriptor_UnitCadavre_Gazelle_20mm_reco_FR is TEntityDescriptor
             $/GFX/Everything/Descriptor_Unit_Gazelle_20mm_reco_FR/HeliApparence,
             $/GFX/Everything/Descriptor_Unit_Gazelle_20mm_reco_FR/GenericMovement,
             $/GFX/Everything/Descriptor_Unit_Gazelle_20mm_reco_FR/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Gazelle_CMD_UK is TEntityDescriptor
+(
+    DescriptorId       = GUID:{67b000b6-2fe0-4923-99e5-073766f13001}
+    ClassNameForDebug  = 'Unit_CadavreGazelle_CMD_UK'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'UK'
+            AcknowUnitType                   = ~/TAcknowUnitType_HeliAttack
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((300) * Metre)
+                NearGroundFlyingAltitude   = ((50) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = False
+                KillAsInfanterie = False
+                KillAsHelico = True
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Helico_Leger
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/HelicopterMovement,
+                   $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/HeliApparence,
+                   $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/FacingInfos,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/HelicopterMovement,
+            $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/HeliApparence,
+            $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_Gazelle_CMD_UK/FacingInfos,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]

@@ -28,7 +28,7 @@ export colonelAttackDescriptor is TMacroActionDescriptor_Attack_Specific
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
         TAirStrikeSettingHolder(Setting = ~/BasicAirstrikeSupport),
         TSupportSettingHolder(SettingList = [Renfort_AT, Renfort_TransportsAbandonnes]),
-        TArtilleryAmountSettingHolder(InMapArtilleryAmount = 2 OutMapArtilleryAmount = 0),
+        TArtilleryAmountSettingHolder(ArtilleryAmount = 2),
         TBlitzkriegSettingHolder(RatioFactorToDisableSelfPreservation = 2.0   MinimumCostForSelfPreservation = 100),
         TAttackRatioSettingHolder(RatioMinimumPourAttaquer = 0.01 UtiliserMenaceLaPlusProcheAuLieuDeLaPlusFaible = true),
         TMacroActionProductionSettingHolder(DisableReinforcement = true),
@@ -43,7 +43,7 @@ export colonelDefenseDescriptor is TMacroActionDescriptor_Defense_Specific
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
         TAirStrikeSettingHolder(Setting = ~/BasicAirstrikeSupport),
-        TArtilleryAmountSettingHolder(InMapArtilleryAmount = 1 OutMapArtilleryAmount = 0),
+        TArtilleryAmountSettingHolder(ArtilleryAmount = 1),
         TSupportSettingHolder(SettingList = [player_mission_Renfort_AT]),
         TMacroActionProductionSettingHolder(DisableReinforcement = true),
         TMacroActionLifetimeSettingHolder(MaintainForever = true), //IMPORTANT
@@ -57,7 +57,7 @@ export colonelArtilleryCounterBatteryDescriptor is TMacroActionDescriptor_Artill
     ParametresDeMission =
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
-        TArtilleryPositionningSettingHolder(ArtilleryPositionOffset = 10000 * Metre {2000m ingame} OutMapArtilleryPositionOffset = 7000 * Metre),
+        TArtilleryPositionningSettingHolder(ArtilleryPositionOffset = 10000 * Metre),
         TMacroActionProductionSettingHolder(PoolModelList = [] DistanceToOptimumStartDuringDeployment = 3000*Metre),
         TMacroActionLifetimeSettingHolder(MaintainForever = true), //IMPORTANT
         TArtilleryPlayerMissionSettingHolder(
@@ -72,7 +72,7 @@ export colonelArtilleryDescriptor is TMacroActionDescriptor_Artillery_PlayerMiss
     ParametresDeMission =
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
-        TArtilleryPositionningSettingHolder(ArtilleryPositionOffset = 10000 * Metre {2000m ingame} OutMapArtilleryPositionOffset = 7000 * Metre),
+        TArtilleryPositionningSettingHolder(ArtilleryPositionOffset = 10000 * Metre),
         TMacroActionProductionSettingHolder(PoolModelList = [] DistanceToOptimumStartDuringDeployment = 3000*Metre),
         TMacroActionLifetimeSettingHolder(MaintainForever = true), //IMPORTANT
         TArtilleryPlayerMissionSettingHolder(AuthorizedTargetTags = ["AllUnits"] TargetFilter = ETargetFilter_UnitSeen MinDurationForTargetValidity = 10),

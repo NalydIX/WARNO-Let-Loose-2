@@ -4606,6 +4606,37 @@ FXWeapon_Grenade_Satchel_Charge is TIntroduceMobileHappening( Happening = FXProj
 
 FXWeapon_Grenade_US_mk2 is TIntroduceMobileHappening( Happening = FXProjectile_14( Action = $/GFX/GameFx/fx_traine_grenade_Satchem ) )
 
+FXWeapon_HMG_12_7_mm_DShKM is FiringAndProjectile
+(
+    Happenings = [
+        TRandomHappening
+        (
+            Alternatives =
+            [
+                FXFiring_11( Action = $/GFX/GameFx/fx_tir_Cal50_douilles_eject_1 ),
+                FXFiring_11( Action = $/GFX/GameFx/fx_tir_Cal50_douilles_eject_2 ),
+                FXFiring_11( Action = $/GFX/GameFx/fx_tir_Cal50_douilles_eject_3 ),
+                FXFiring_11( Action = $/GFX/GameFx/fx_tir_Cal50_douilles_eject_4 ),
+                FXFiring_11( Action = $/GFX/GameFx/fx_tir_Cal50_douilles_eject_5 ),
+            ]
+        ),
+        TRandomHappening
+        (
+            Alternatives =
+            [
+                FXProjectile_15( Action = $/GFX/GameFx/fx_traine_Cal50_1 ),
+                FXProjectile_15( Action = $/GFX/GameFx/fx_traine_Cal50_2 ),
+                FXProjectile_15( Action = $/GFX/GameFx/fx_traine_Cal50_3 ),
+                FXProjectile_15( Action = $/GFX/GameFx/fx_traine_Cal50_4 ),
+                FXProjectile_15( Action = $/GFX/GameFx/fx_traine_Cal50_5 ),
+                FXProjectile_15( Action = $/GFX/GameFx/fx_traine_Cal50_6 ),
+                FXProjectile_15( Action = $/GFX/GameFx/fx_traine_Cal50_7 ),
+                FXProjectile_15( Action = $/GFX/GameFx/fx_traine_Cal50_8 ),
+            ]
+        ),
+    ]
+)
+
 FXWeapon_HMG_12_7_mm_M2HB is FiringAndProjectile
 (
     Happenings = [

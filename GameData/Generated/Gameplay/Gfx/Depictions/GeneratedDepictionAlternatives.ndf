@@ -776,6 +776,11 @@ Alternatives_GAZ_66_SOV is [
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_GAZ_66_SOV_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_GAZ_66_SOV_LOW ),
 ]
+Alternatives_GAZ_66_supply_SOV is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_GAZ_66_supply_SOV ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_GAZ_66_supply_SOV_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_GAZ_66_supply_SOV_LOW ),
+]
 Alternatives_Gepard_1A2_RFA is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Gepard_1A2_RFA ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_Gepard_1A2_RFA_MID ),

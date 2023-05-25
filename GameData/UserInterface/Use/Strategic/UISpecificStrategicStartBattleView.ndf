@@ -616,6 +616,9 @@ private PanelInfosBataille is BUCKListDescriptor
                 ElementName2 = "Attack"
                 TextToken1 = "Auto_AttF"
                 TextToken2 = "CatPow"
+                TypefaceTokenToken2 = "Eurostyle_Heavy"
+                TextColorToken2 = 'BlancEquipe'
+
             )
         ),
         BUCKListElementDescriptor
@@ -627,6 +630,10 @@ private PanelInfosBataille is BUCKListDescriptor
                 ElementName2 = "Defense"
                 TextToken1 = "Auto_DefF"
                 TextToken2 = "CatPow"
+                TypefaceTokenToken2 = "Eurostyle_Heavy"
+                TextColorToken2 = 'BlancEquipe'
+
+
             )
         ),
         //-------------------------------------------------------------------------------------
@@ -651,6 +658,10 @@ private PanelInfosBataille is BUCKListDescriptor
                 ElementName2 = "TextDeploymentPointsValue"
                 TextToken1 = "PrC_in1"
                 TextToken2 = "depl_pts"
+                TypefaceTokenToken2 = "Eurostyle_Heavy"
+                TextColorToken2 = 'BlancEquipe'
+
+
             )
         ),
         BUCKListElementDescriptor
@@ -662,6 +673,10 @@ private PanelInfosBataille is BUCKListDescriptor
                 ElementName2 = "TextIncomeValue"
                 TextToken1 = "PrC_in2"
                 TextToken2 = "income"
+                TypefaceTokenToken2 = "Eurostyle_Heavy"
+                TextColorToken2 = 'BlancEquipe'
+
+
             )
         ),
         BUCKListElementSpacer(Magnifiable = 20.0),
@@ -916,9 +931,24 @@ private PanelInfosBataille is BUCKListDescriptor
         PanelRoundedCorner
         (
             Radius = 15
-            BackgroundBlockColorToken = "SM_Feldgrau"
+            BackgroundBlockColorToken = "SM_Feldgrau_75"
             BorderLineColorToken = "SM_Grullo"
-        )
+
+            // Components =
+            // [
+            // BUCKTextureDescriptor
+            // (
+            //     ClipTextureToComponent = true
+            //     ComponentFrame = TUIFramePropertyRTTI
+            //     (
+            //             RelativeWidthHeight = [1,1]
+            //         )
+            //     TextureToken = 'CommonTexture_Ombre_TopTileTexture'
+            // )
+            // ]
+        ),
+
+
     ]
 )
 

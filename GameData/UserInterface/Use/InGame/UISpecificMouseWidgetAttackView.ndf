@@ -126,7 +126,7 @@ template BUCKSpecificMouseWidgetAttackMainComponentDescriptor
 
             ComponentFrame = TUIFramePropertyRTTI
             (
-                AlignementToFather = [0.5, 0]
+                AlignementToFather = [0.5, 0.0]
                 AlignementToAnchor = [0.5, 1.0]
             )
             TextAlignment = UIText_Center
@@ -348,16 +348,7 @@ template UISpecificMouseWidgetAttackViewDescriptor
     ElementNamesToHideInMinimalist =
     [
         "UnitComparatorContainer",
-                "ArmorLevel",
-                "ArmorSide",
-
-        {"WeaponType",
-                "DamageTypeContainer",
-                "DamagesContainer",
-                "HitChanceContainer",
-                "UnitComparatorContainer",
-                "ArmorLevel",
-                "ArmorSide",
-                "WeaponState",}
+        "ArmorLevel",
+        "ArmorSide",
     ]
 )

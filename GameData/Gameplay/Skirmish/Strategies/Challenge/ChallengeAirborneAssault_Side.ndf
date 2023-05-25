@@ -11,7 +11,7 @@ export ChallengeAirborneAssault_Side is TIAGeneralStrategy
     ConstantesMap = MAP[
         ("ForceTacticalMoveAndAttack", TEugBBoolean(Value = true)),
     ]
-    AuthorizedCorridorList = [0,1]
+    AuthorizedCorridorList = [0]
     AllowToByPassNbMacroActionAllowedToProduceSimultaneous = true
     TransitionList =
     [

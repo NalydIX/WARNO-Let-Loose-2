@@ -2356,16 +2356,104 @@ TeamStatContainer is BUCKListDescriptor
 )
 
 //-------------------------------------------------------------------------------------
+
+EndgameDefeatAnimationTextureList is ['OTAN_DEFEAT000', 'OTAN_DEFEAT001', 'OTAN_DEFEAT002', 'OTAN_DEFEAT003', 'OTAN_DEFEAT004', 'OTAN_DEFEAT005', 'OTAN_DEFEAT006', 'OTAN_DEFEAT007', 'OTAN_DEFEAT008', 'OTAN_DEFEAT009', 'OTAN_DEFEAT010', 'OTAN_DEFEAT011', 'OTAN_DEFEAT012', 'OTAN_DEFEAT013', 'OTAN_DEFEAT014', 'OTAN_DEFEAT015', 'OTAN_DEFEAT016', 'OTAN_DEFEAT017', 'OTAN_DEFEAT018', 'OTAN_DEFEAT019', 'OTAN_DEFEAT020', 'OTAN_DEFEAT021', 'OTAN_DEFEAT022', 'OTAN_DEFEAT023', 'OTAN_DEFEAT024', 'OTAN_DEFEAT025', 'OTAN_DEFEAT026', 'OTAN_DEFEAT027', 'OTAN_DEFEAT028', 'OTAN_DEFEAT029', 'OTAN_DEFEAT030', 'OTAN_DEFEAT031', 'OTAN_DEFEAT032', 'OTAN_DEFEAT033', 'OTAN_DEFEAT034', 'OTAN_DEFEAT035', 'OTAN_DEFEAT036', 'OTAN_DEFEAT037', 'OTAN_DEFEAT038', 'OTAN_DEFEAT039', 'OTAN_DEFEAT040', 'OTAN_DEFEAT041', 'OTAN_DEFEAT042', 'OTAN_DEFEAT043', 'OTAN_DEFEAT044', 'OTAN_DEFEAT045', 'OTAN_DEFEAT046', 'OTAN_DEFEAT047', 'OTAN_DEFEAT048', 'OTAN_DEFEAT049', 'OTAN_DEFEAT050', 'OTAN_DEFEAT051', 'OTAN_DEFEAT052', 'OTAN_DEFEAT053', 'OTAN_DEFEAT054', 'OTAN_DEFEAT055', 'OTAN_DEFEAT056', 'OTAN_DEFEAT057', 'OTAN_DEFEAT058', 'OTAN_DEFEAT059', 'OTAN_DEFEAT060', 'OTAN_DEFEAT061', 'OTAN_DEFEAT062', 'OTAN_DEFEAT063', 'OTAN_DEFEAT064', 'OTAN_DEFEAT065', 'OTAN_DEFEAT066', 'OTAN_DEFEAT067', 'OTAN_DEFEAT068', 'OTAN_DEFEAT069', 'OTAN_DEFEAT070', 'OTAN_DEFEAT071', 'OTAN_DEFEAT072', 'OTAN_DEFEAT073', 'OTAN_DEFEAT074', 'OTAN_DEFEAT075', 'OTAN_DEFEAT076', 'OTAN_DEFEAT077', 'OTAN_DEFEAT078', 'OTAN_DEFEAT079', 'OTAN_DEFEAT080', 'OTAN_DEFEAT081', 'OTAN_DEFEAT082', 'OTAN_DEFEAT083', 'OTAN_DEFEAT084', 'OTAN_DEFEAT085', 'OTAN_DEFEAT086', 'OTAN_DEFEAT087', 'OTAN_DEFEAT088', 'OTAN_DEFEAT089', 'OTAN_DEFEAT090', 'OTAN_DEFEAT091', 'OTAN_DEFEAT092', 'OTAN_DEFEAT093', 'OTAN_DEFEAT094', 'OTAN_DEFEAT095', 'OTAN_DEFEAT096', 'OTAN_DEFEAT097', 'OTAN_DEFEAT098', 'OTAN_DEFEAT099', 'OTAN_DEFEAT100', 'OTAN_DEFEAT101', 'OTAN_DEFEAT102', 'OTAN_DEFEAT103', 'OTAN_DEFEAT104', 'OTAN_DEFEAT105', 'OTAN_DEFEAT106', 'OTAN_DEFEAT107', 'OTAN_DEFEAT108', 'OTAN_DEFEAT109', 'OTAN_DEFEAT110', 'OTAN_DEFEAT111', 'OTAN_DEFEAT112', 'OTAN_DEFEAT113', 'OTAN_DEFEAT114', 'OTAN_DEFEAT115', 'OTAN_DEFEAT116', 'OTAN_DEFEAT117', 'OTAN_DEFEAT118', 'OTAN_DEFEAT119', 'OTAN_DEFEAT120', 'OTAN_DEFEAT121', 'OTAN_DEFEAT122', 'OTAN_DEFEAT123', 'OTAN_DEFEAT124', 'OTAN_DEFEAT125', 'OTAN_DEFEAT126', 'OTAN_DEFEAT127', 'OTAN_DEFEAT128', 'OTAN_DEFEAT129', 'OTAN_DEFEAT130', 'OTAN_DEFEAT131', 'OTAN_DEFEAT132', 'OTAN_DEFEAT133', 'OTAN_DEFEAT134', 'OTAN_DEFEAT135', 'OTAN_DEFEAT136', 'OTAN_DEFEAT137', 'OTAN_DEFEAT138', 'OTAN_DEFEAT139', 'OTAN_DEFEAT140', 'OTAN_DEFEAT141', 'OTAN_DEFEAT142', 'OTAN_DEFEAT143', 'OTAN_DEFEAT144', 'OTAN_DEFEAT145', 'OTAN_DEFEAT146', 'OTAN_DEFEAT147', 'OTAN_DEFEAT148', 'OTAN_DEFEAT149', 'OTAN_DEFEAT150', 'OTAN_DEFEAT151', 'OTAN_DEFEAT152', 'OTAN_DEFEAT153', 'OTAN_DEFEAT154', 'OTAN_DEFEAT155', 'OTAN_DEFEAT156', 'OTAN_DEFEAT157', 'OTAN_DEFEAT158', 'OTAN_DEFEAT159', 'OTAN_DEFEAT160', 'OTAN_DEFEAT161', 'OTAN_DEFEAT162', 'OTAN_DEFEAT163', 'OTAN_DEFEAT164', 'OTAN_DEFEAT165', 'OTAN_DEFEAT166', 'OTAN_DEFEAT167', 'OTAN_DEFEAT168', 'OTAN_DEFEAT169', 'OTAN_DEFEAT170', 'OTAN_DEFEAT171', 'OTAN_DEFEAT172', 'OTAN_DEFEAT173', 'OTAN_DEFEAT174', 'OTAN_DEFEAT175', 'OTAN_DEFEAT176', 'OTAN_DEFEAT177', 'OTAN_DEFEAT178', 'OTAN_DEFEAT179', 'OTAN_DEFEAT180']
+EndgameVictoryAnimationTextureList is ['OTAN_VICTORY000', 'OTAN_VICTORY001', 'OTAN_VICTORY002', 'OTAN_VICTORY003', 'OTAN_VICTORY004', 'OTAN_VICTORY005', 'OTAN_VICTORY006', 'OTAN_VICTORY007', 'OTAN_VICTORY008', 'OTAN_VICTORY009', 'OTAN_VICTORY010', 'OTAN_VICTORY011', 'OTAN_VICTORY012', 'OTAN_VICTORY013', 'OTAN_VICTORY014', 'OTAN_VICTORY015', 'OTAN_VICTORY016', 'OTAN_VICTORY017', 'OTAN_VICTORY018', 'OTAN_VICTORY019', 'OTAN_VICTORY020', 'OTAN_VICTORY021', 'OTAN_VICTORY022', 'OTAN_VICTORY023', 'OTAN_VICTORY024', 'OTAN_VICTORY025', 'OTAN_VICTORY026', 'OTAN_VICTORY027', 'OTAN_VICTORY028', 'OTAN_VICTORY029', 'OTAN_VICTORY030', 'OTAN_VICTORY031', 'OTAN_VICTORY032', 'OTAN_VICTORY033', 'OTAN_VICTORY034', 'OTAN_VICTORY035', 'OTAN_VICTORY036', 'OTAN_VICTORY037', 'OTAN_VICTORY038', 'OTAN_VICTORY039', 'OTAN_VICTORY040', 'OTAN_VICTORY041', 'OTAN_VICTORY042', 'OTAN_VICTORY043', 'OTAN_VICTORY044', 'OTAN_VICTORY045', 'OTAN_VICTORY046', 'OTAN_VICTORY047', 'OTAN_VICTORY048', 'OTAN_VICTORY049', 'OTAN_VICTORY050', 'OTAN_VICTORY051', 'OTAN_VICTORY052', 'OTAN_VICTORY053', 'OTAN_VICTORY054', 'OTAN_VICTORY055', 'OTAN_VICTORY056', 'OTAN_VICTORY057', 'OTAN_VICTORY058', 'OTAN_VICTORY059', 'OTAN_VICTORY060', 'OTAN_VICTORY061', 'OTAN_VICTORY062', 'OTAN_VICTORY063', 'OTAN_VICTORY064', 'OTAN_VICTORY065', 'OTAN_VICTORY066', 'OTAN_VICTORY067', 'OTAN_VICTORY068', 'OTAN_VICTORY069', 'OTAN_VICTORY070', 'OTAN_VICTORY071', 'OTAN_VICTORY072', 'OTAN_VICTORY073', 'OTAN_VICTORY074', 'OTAN_VICTORY075', 'OTAN_VICTORY076', 'OTAN_VICTORY077', 'OTAN_VICTORY078', 'OTAN_VICTORY079', 'OTAN_VICTORY080', 'OTAN_VICTORY081', 'OTAN_VICTORY082', 'OTAN_VICTORY083', 'OTAN_VICTORY084', 'OTAN_VICTORY085', 'OTAN_VICTORY086', 'OTAN_VICTORY087', 'OTAN_VICTORY088', 'OTAN_VICTORY089', 'OTAN_VICTORY090', 'OTAN_VICTORY091', 'OTAN_VICTORY092', 'OTAN_VICTORY093', 'OTAN_VICTORY094', 'OTAN_VICTORY095', 'OTAN_VICTORY096', 'OTAN_VICTORY097', 'OTAN_VICTORY098', 'OTAN_VICTORY099', 'OTAN_VICTORY100', 'OTAN_VICTORY101', 'OTAN_VICTORY102', 'OTAN_VICTORY103', 'OTAN_VICTORY104', 'OTAN_VICTORY105', 'OTAN_VICTORY106', 'OTAN_VICTORY107', 'OTAN_VICTORY108', 'OTAN_VICTORY109', 'OTAN_VICTORY110', 'OTAN_VICTORY111', 'OTAN_VICTORY112', 'OTAN_VICTORY113', 'OTAN_VICTORY114', 'OTAN_VICTORY115', 'OTAN_VICTORY116', 'OTAN_VICTORY117', 'OTAN_VICTORY118', 'OTAN_VICTORY119', 'OTAN_VICTORY120', 'OTAN_VICTORY121', 'OTAN_VICTORY122', 'OTAN_VICTORY123', 'OTAN_VICTORY124', 'OTAN_VICTORY125', 'OTAN_VICTORY126', 'OTAN_VICTORY127', 'OTAN_VICTORY128', 'OTAN_VICTORY129', 'OTAN_VICTORY130', 'OTAN_VICTORY131', 'OTAN_VICTORY132', 'OTAN_VICTORY133', 'OTAN_VICTORY134', 'OTAN_VICTORY135', 'OTAN_VICTORY136', 'OTAN_VICTORY137', 'OTAN_VICTORY138', 'OTAN_VICTORY139', 'OTAN_VICTORY140', 'OTAN_VICTORY141', 'OTAN_VICTORY142', 'OTAN_VICTORY143', 'OTAN_VICTORY144', 'OTAN_VICTORY145', 'OTAN_VICTORY146', 'OTAN_VICTORY147', 'OTAN_VICTORY148', 'OTAN_VICTORY149', 'OTAN_VICTORY150', 'OTAN_VICTORY151', 'OTAN_VICTORY152', 'OTAN_VICTORY153', 'OTAN_VICTORY154', 'OTAN_VICTORY155', 'OTAN_VICTORY156', 'OTAN_VICTORY157', 'OTAN_VICTORY158', 'OTAN_VICTORY159', 'OTAN_VICTORY160', 'OTAN_VICTORY161', 'OTAN_VICTORY162', 'OTAN_VICTORY163', 'OTAN_VICTORY164', 'OTAN_VICTORY165', 'OTAN_VICTORY166', 'OTAN_VICTORY167', 'OTAN_VICTORY168', 'OTAN_VICTORY169', 'OTAN_VICTORY170', 'OTAN_VICTORY171', 'OTAN_VICTORY172', 'OTAN_VICTORY173', 'OTAN_VICTORY174', 'OTAN_VICTORY175', 'OTAN_VICTORY176', 'OTAN_VICTORY177', 'OTAN_VICTORY178', 'OTAN_VICTORY179', 'OTAN_VICTORY180']
+
+EndgameResultAnimationComponent is BUCKContainerDescriptor
+(
+    ElementName = "EndgameAnimationContainer"
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        RelativeWidthHeight = [1.0, 1.0]
+    )
+
+    Components =
+    [
+        BUCKTextureAnimationDescriptor
+        (
+            ElementName = "EndgameAnimationTextureAnimation"
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                MagnifiableWidthHeight = [1280.0, 800.0]
+                AlignementToAnchor = [0.5, 0.5]
+                AlignementToFather = [0.5, 0.5]
+            )
+
+            AnimDuration = 6
+            AlphaAnimDuration = 0
+        ),
+        BUCKTranslationAnimatedContainerDescriptor
+        (
+            ElementName = "EndgameAnimationTextAnimation"
+            FramePropertyBeforeAnimation = TUIFramePropertyRTTI
+            (
+                MagnifiableWidthHeight = [1,100]
+                MagnifiableOffset = [0,-210]
+                AlignementToAnchor = [0.5, 0.5]
+                AlignementToFather = [0.5, 0.5]
+            )
+
+            TriggerWhenSetVisible = true
+            AnimationTotalDuration = 4
+
+            FramePropertyAfterAnimation = TUIFramePropertyRTTI
+            (
+                MagnifiableWidthHeight = [600,100]
+                MagnifiableOffset = [0,-210]
+                AlignementToAnchor = [0.5, 0.5]
+                AlignementToFather = [0.5, 0.5]
+            )
+
+            Components =
+            [
+               BUCKTextDescriptor
+                (
+                    ElementName = "AnimatedText"
+                    ComponentFrame = TUIFramePropertyRTTI
+                    (
+                        RelativeWidthHeight = [1,1]
+                        AlignementToFather = [0.5, 0.0]
+                        AlignementToAnchor = [0.5, 0.0]
+                    )
+
+                    ParagraphStyle = TParagraphStyleRTTI
+                    (
+                        Alignment = UIText_Center
+                        VerticalAlignment = UIText_VerticalCenter
+                        InterLine = 0.5
+                    )
+                    TextStyle = "Default"
+
+                    HorizontalFitStyle = ~/FitStyle/UserDefined
+                    VerticalFitStyle = ~/FitStyle/UserDefined
+
+                    TextPadding = TRTTILength4 (Magnifiable = [10.0, 0.0, 10.0, 0.0])
+
+                    TypefaceToken = "Bombardier"
+                    BigLineAction = ~/BigLineAction/Banner
+
+                    TextColor =  "Blanc"
+                    TextSize = "90"
+                    TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                ),
+            ]
+        )
+    ]
+)
+
+//-------------------------------------------------------------------------------------
 BUCKSpecificTacticalEndGameMainComponentDescriptor is WindowFrame
 (
     ContentRelativeWidthHeight = [1.0, 1.0]
     ContentExtendWeight = 1.0
-    TitleToken = 'EG_DEBRIEF'
+    HasBackground = false
 
     ContentComponents =
     [
         BUCKTextureDescriptor
         (
+            ElementName = "EndgameBackgroundTexture"
             ComponentFrame = TUIFramePropertyRTTI
             (
                 MagnifiableWidthHeight = [1920.0, 1080.0]
@@ -2374,7 +2462,8 @@ BUCKSpecificTacticalEndGameMainComponentDescriptor is WindowFrame
             )
             TextureToken = 'Outgame_fond_EndGame'
         ),
-        ~/EngamePanelTab
+        ~/EngamePanelTab,
+        ~/EndgameResultAnimationComponent
     ]
 )
 
@@ -2520,6 +2609,39 @@ UISpecificTacticalEndGameViewDescriptor is TUISpecificTacticalEndGameViewDescrip
         (ETerrainType/StrategicForest, "FOREST"),
         (ETerrainType/StrategicPlain, "PLAIN"),
         (ETerrainType/StrategicSemiUrban, "SEMIURB"),
+    ]
+
+    EndgameAnimationTextures = MAP
+    [
+        (~/EVictoryType/TotalDefeat,  EndgameDefeatAnimationTextureList),
+        (~/EVictoryType/MajorDefeat,  EndgameDefeatAnimationTextureList),
+        (~/EVictoryType/MinorDefeat,  EndgameDefeatAnimationTextureList),
+        //TODO : (~/EVictoryType/Draw, ??),
+        (~/EVictoryType/MinorVictory, EndgameVictoryAnimationTextureList),
+        (~/EVictoryType/MajorVictory, EndgameVictoryAnimationTextureList),
+        (~/EVictoryType/TotalVictory, EndgameVictoryAnimationTextureList),
+    ]
+
+    EndgameAnimationTextTokens = MAP
+    [
+        (~/EVictoryType/TotalDefeat,  "lose"),
+        (~/EVictoryType/MajorDefeat,  "lose"),
+        (~/EVictoryType/MinorDefeat,  "lose"),
+        //TODO : (~/EVictoryType/Draw, ??),
+        (~/EVictoryType/MinorVictory, "win"),
+        (~/EVictoryType/MajorVictory, "win"),
+        (~/EVictoryType/TotalVictory, "win"),
+    ]
+
+    EndgameAnimationSounds = MAP
+    [
+        (~/EVictoryType/TotalDefeat,  ~/HudSoundOnDefeat),
+        (~/EVictoryType/MajorDefeat,  ~/HudSoundOnDefeat),
+        (~/EVictoryType/MinorDefeat,  ~/HudSoundOnDefeat),
+        //TODO : (~/EVictoryType/Draw, ??),
+        (~/EVictoryType/MinorVictory, ~/HudSoundOnVictory),
+        (~/EVictoryType/MajorVictory, ~/HudSoundOnVictory),
+        (~/EVictoryType/TotalVictory, ~/HudSoundOnVictory),
     ]
 
     XpMainColor = "VertLogin"

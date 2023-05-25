@@ -911,6 +911,12 @@ Gfx_GAZ_66_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
     Selector = Selector_GAZ_66_SOV
     SubDepictions = HumanSubDepictionsShowroom_GAZ_66_SOV
 )
+Gfx_GAZ_66_supply_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_GAZ_66_supply_SOV
+    Selector = Selector_GAZ_66_supply_SOV
+    SubDepictions = HumanSubDepictionsShowroom_GAZ_66_supply_SOV
+)
 Gfx_Gepard_1A2_RFA_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_Gepard_1A2_RFA

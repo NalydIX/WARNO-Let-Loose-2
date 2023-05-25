@@ -2399,6 +2399,11 @@ DefaultStyleGuide is TUIStyleGuide
                                                         ( ~/ComponentState/Highlighted,            TColorRTTI( Color = [93,116,88,255] ) ),
                                                         ( ~/ComponentState/Toggled,                TColorRTTI( Color = [101,128,96,255] ) ),
                                                     ]),
+        ("SM_Feldgrau_75",                         MAP [
+                                                        ( ~/ComponentState/Normal,                 TColorRTTI( Color = [73,91,69,220] ) ),
+                                                        ( ~/ComponentState/Highlighted,            TColorRTTI( Color = [93,116,88,255] ) ),
+                                                        ( ~/ComponentState/Toggled,                TColorRTTI( Color = [101,128,96,255] ) ),
+                                                    ]),
         ("SM_RifleGreen",                       MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = RifleGreen ) ),]),
         ("SM_RifleGreen_75",                    MAP [
                                                         ( ~/ComponentState/Normal,                 TColorRTTI( Color = [64,77,64,210] ) ),

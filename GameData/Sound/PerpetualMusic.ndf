@@ -33,6 +33,7 @@ Playlist_Ingame is
 [
     Music( FileName = "GameData:/Assets/Sons/PerpetualMusic/Canyon.wav" ),
     Music( FileName = "GameData:/Assets/Sons/PerpetualMusic/Clusters_Of_Desolation.wav" ),
+    Music( FileName = "GameData:/Assets/Sons/PerpetualMusic/Depiction_Of_Fear.wav" ),
     Music( FileName = "GameData:/Assets/Sons/PerpetualMusic/Dark_City_Beats.wav" ),
     Music( FileName = "GameData:/Assets/Sons/PerpetualMusic/Dawn_On_Glendale.wav" ),
     Music( FileName = "GameData:/Assets/Sons/PerpetualMusic/Divine-Inspiration.wav" ),

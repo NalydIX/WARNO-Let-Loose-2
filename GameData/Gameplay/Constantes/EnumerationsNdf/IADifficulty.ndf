@@ -4,21 +4,23 @@
 IADifficultyNdfEnum is EIADifficulty
 (
     Values = [
-        "NoDifficulty",
+        "HumanDifficulty",
         "VeryEasy",
         "Easy",
         "Medium",
         "Hard",
         "VeryHard",
         "Hardest",
+        "Scripted",
     ]
 )
 
 IAListConfig is TIADifficultyListConfiguration
 (
-    IANoDifficulty = IADifficulty/NoDifficulty
+    HumanIADifficulty = IADifficulty/HumanDifficulty
     IAAnyDifficulty = IADifficulty/AnyDifficulty
     DefaultIADifficulty = IADifficulty/Normal
+    ScriptedDifficulty = IADifficulty/Scripted
     IADifficultyList = MAP
     [
         (

@@ -134,11 +134,6 @@ SpecificInGameLDHintResource is TUICommonInGameLDHintResource
         ( "cutscene_10", LDHint_cutscene_10 ),
         ( "hint_noPause", PORTRAIT_PauseAndTexture (TextureToken = "" HasButtons = false) ),
 
-
-        ( "defeat", LDHINT_animationFinDePartie () ),
-        ( "victory", LDHINT_animationFinDePartie (type = 'victory') ),
-
-
         //-------------------------------------------------------------------------------------
         // test_tuto_5
         ( "test_Tuto_5_shootAircraft", MES_PauseAndTexture (TextureToken = "Image_test_Tuto_5_shootAircraft") ),

@@ -32,7 +32,7 @@ Default_Support_Request_Attack_Settings is
 [
     TAirStrikeSettingHolder(Setting = ~/BasicAirstrikeSupport),
     TSupportSettingHolder(SettingList = [Renfort_AT, Renfort_TransportsAbandonnes]),
-    TArtilleryAmountSettingHolder(InMapArtilleryAmount = 2 OutMapArtilleryAmount = 0),
+    TArtilleryAmountSettingHolder(ArtilleryAmount = 2),
 ]
 //-------------------------------------------------------------------------
 Blitzkrieg_Attack_Settings is

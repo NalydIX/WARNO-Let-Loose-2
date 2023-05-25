@@ -134,5 +134,5 @@ export GenBTDef_Command is TSequenceGeneratorDescriptor
 
 BKTDef_Scaling is
 [
-    ~/Defense_Objectif_BKT,
+    ~/Defense_Objectif_BKT_Scaling,
 ]

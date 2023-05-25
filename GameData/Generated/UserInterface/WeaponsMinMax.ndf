@@ -177,14 +177,14 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                AimTime = TMinMaxValue (
                        Min = 2.0 // RocketInf M40A1 RCL 106mm TOWED
-                       Max = 26.0 // Howz Canon GCT Howitzer 155mm Direct
+                       Max = 3.0 // Canon AP 2A18 122mm
                )
                ReloadTime = TMinMaxValue (
                        Min = 4.0 // Canon AP 57mm ZiS2
-                       Max = 45.0 // Howz Canon GCT Howitzer 155mm Direct
+                       Max = 18.0 // Canon HE 165mm AVRE
                )
                Accuracy = TMinMaxValue (
-                       Min = 0 // Howz Canon GCT Howitzer 155mm Direct
+                       Min = 30 // Canon AP 2A18 122mm
                        Max = 70 // Canon HE 142mm AVRE
                )
                AccuracyMovement = TMinMaxValue (

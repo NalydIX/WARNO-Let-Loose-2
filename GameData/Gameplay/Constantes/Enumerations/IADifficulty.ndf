@@ -5,11 +5,12 @@
 IADifficulty is TBaseClass
 (
     AnyDifficulty is 0
-    NoDifficulty  is 0
+    HumanDifficulty is 0
     TresFacile    is 1
     Facile        is 2
     Normal        is 3
     Difficile     is 4
     TresDifficile is 5
     PlusDifficile is 6
+    Scripted      is 7
 )
