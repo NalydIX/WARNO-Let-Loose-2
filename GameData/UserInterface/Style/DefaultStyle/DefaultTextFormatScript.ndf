@@ -1902,6 +1902,36 @@ DefaultTextFormatScript is TTextFormatScriptRTTI
                 ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
             )
         ),
+        (
+            "Steelman_terrain_urbain",
+            TTFSCommand_UISymbol
+            (
+                TextureToken = "Steelman_terrain_urbain"
+                BBMin=[0, -0.8, 0]
+                BBMax=[1, 0.2, 0]
+                ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
+            )
+        ),
+        (
+            "Steelman_terrain_plaine",
+            TTFSCommand_UISymbol
+            (
+                TextureToken = "Steelman_terrain_plaine"
+                BBMin=[0, -0.8, 0]
+                BBMax=[1, 0.2, 0]
+                ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
+            )
+        ),
+        (
+            "Steelman_terrain_foret",
+            TTFSCommand_UISymbol
+            (
+                TextureToken = "Steelman_terrain_foret"
+                BBMin=[0, -0.8, 0]
+                BBMax=[1, 0.2, 0]
+                ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
+            )
+        ),
         //-------------------------------------------------------------------------------------//
         (
             "complex",

@@ -2431,6 +2431,11 @@ DefaultStyleGuide is TUIStyleGuide
                                         ( ~/ComponentState/ToggleHighlighted,                TColorRTTI( Color = [30+80,32+80,33+80,255] ) ),
                                         ]),
 
+        ("bouton_cubeAction",              MAP [
+                                        ( ~/ComponentState/Normal,                TColorRTTI( Color = Transparent ) ),
+                                        ( ~/ComponentState/Highlighted,           TColorRTTI( Color = [128,128,128,25] ) ),
+                                         ]),
+
         // couleur des division
         // US
         ("division_US_1",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [47,203,252,255] ) ),]),

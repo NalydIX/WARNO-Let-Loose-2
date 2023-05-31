@@ -125,9 +125,6 @@ SoundEvent_CopyDeck                         is HoverSound_hub_solo
 SoundEvent_ExportDeck                       is ClickSound_computer
 SoundEvent_SaveDeck                         is HoverSound_hub_solo
 SoundEvent_AutofillDeck                     is ClickSound_computer
-SoundEvent_ShowDeckOverview                 is NoSound
-SoundEvent_HideDeckOverview                 is NoSound
-SoundEvent_ChangeDeckOverview               is NoSound
 SoundEvent_CombatGroupUnitAmount            is NoSound
 
 // Lobby

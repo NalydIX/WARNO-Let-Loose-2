@@ -12495,106 +12495,6 @@ Gfx_M1A1_Abrams_US_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_CriticalFX_Tank
             + Eject_Actions_M1A1_Abrams_US
 )
-// Dépiction de l'unité M1A1_Abrams_reco_US
-DepictionOperator_M1A1_Abrams_reco_US_Weapon1 is DepictionOperator_WeaponInstantFire
-(
-    FireEffectTag = "weapon_effet_tag1"
-    Anchors = ["fx_tourelle1_tir_01"]
-    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
-    NbProj = 1
-)
-DepictionOperator_M1A1_Abrams_reco_US_Weapon2 is DepictionOperator_WeaponInstantFire
-(
-    FireEffectTag = "weapon_effet_tag2"
-    Anchors = ["fx_tourelle1_tir_01"]
-    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
-    NbProj = 1
-)
-DepictionOperator_M1A1_Abrams_reco_US_Weapon3 is DepictionOperator_WeaponContinuousFire
-(
-    FireEffectTag = "weapon_effet_tag3"
-    Anchors = ["fx_tourelle2_tir_01"]
-    WeaponShootDataPropertyName = "WeaponShootData_0_3"
-    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_3"
-    NbFX = 1
-)
-DepictionOperator_M1A1_Abrams_reco_US_Weapon4 is DepictionOperator_WeaponContinuousFire
-(
-    FireEffectTag = "weapon_effet_tag4"
-    Anchors = ["fx_tourelle3_tir_01"]
-    WeaponShootDataPropertyName = "WeaponShootData_0_4"
-    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
-    NbFX = 1
-)
-DepictionOperator_M1A1_Abrams_reco_US_Weapon5 is DepictionOperator_WeaponContinuousFire
-(
-    FireEffectTag = "weapon_effet_tag5"
-    Anchors = ["fx_tourelle4_tir_01"]
-    WeaponShootDataPropertyName = "WeaponShootData_0_5"
-    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
-    NbFX = 1
-)
-DepictionOperator_M1A1_Abrams_reco_US_Weapon6 is DepictionOperator_WeaponInstantFire
-(
-    FireEffectTag = "weapon_effet_tag6"
-    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
-    WeaponShootDataPropertyName = ["WeaponShootData_0_6", ]
-    NbProj = 1
-)
-Gfx_M1A1_Abrams_reco_US_Autogen is TacticVehicleDepictionTemplate
-(
-    CoatingName = 'M1A1_Abrams_reco_US'
-    Selector = Selector_M1A1_Abrams_reco_US
-    Alternatives = Alternatives_M1A1_Abrams_reco_US
-
-    Operators = 
-    [
-        DepictionOperator_CropFlattening,
-        DepictionOperator_MovementSound_SM_M1_Abrams,
-        DepictionOperator_CriticalEffects,
-        DepictionOperator_Chassis_HeavyTank,
-        DepictionOperator_Propulsion_ContinuousTrack,
-        DepictionOperator_MovementFX_Standard,
-        DepictionOperator_Turret_1_Aim,
-        DepictionOperator_TurretSound_ST_M1,
-        DepictionOperator_Turret_1_HydraulicRecoil,
-        DepictionOperator_Turret_2_Aim,
-        DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
-        DepictionOperator_Turret_3_Aim,
-        DepictionOperator_Turret_4_Aim,
-        DepictionOperator_M1A1_Abrams_reco_US_Weapon1,
-        DepictionOperator_M1A1_Abrams_reco_US_Weapon2,
-        DepictionOperator_M1A1_Abrams_reco_US_Weapon3,
-        DepictionOperator_M1A1_Abrams_reco_US_Weapon4,
-        DepictionOperator_M1A1_Abrams_reco_US_Weapon5,
-        DepictionOperator_M1A1_Abrams_reco_US_Weapon6,
-        DepictionOperator_Heat,
-        DepictionOperator_EjectableProps_Vehicle
-        (
-            AdditionalEjectableNodes = 
-            [
-                "tourelle_01",
-                "tourelle_02",
-            ]
-            ArmorPlateCount = 5
-            PropCount = 8
-            TrapdoorCount = 2
-        ),
-    ]
-
-    Actions = MAP[
-                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_120_mm_L52_M68 ),
-                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_120_mm_L52_M68 ),
-                ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_M2HB ),
-                ( [ "weapon_effet_tag4" ], Weapon_MMG_M240_abrams_7_62mm ),
-                ( [ "weapon_effet_tag5" ], Weapon_MMG_M240_7_62mm ),
-                ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
-            ]
-            + DepictionAction_Stress_And_Wrecked
-            + DepictionAction_MovementFX_Tracked
-            + DepictionAction_CriticalFX_Tank
-            + Eject_Actions_M1A1_Abrams_reco_US
-)
 // Dépiction de l'unité M1IP_Abrams_CMD_US
 DepictionOperator_M1IP_Abrams_CMD_US_Weapon1 is DepictionOperator_WeaponInstantFire
 (
@@ -19849,6 +19749,35 @@ Gfx_Ural_4320_SOV_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Wheeled
             + DepictionAction_CriticalFX_Tank
+)
+// Dépiction de l'unité Ural_4320_trans_SOV
+Gfx_Ural_4320_trans_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'Ural_4320_trans_SOV'
+    Selector = Selector_Ural_4320_trans_SOV
+    Alternatives = Alternatives_Ural_4320_trans_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        DepictionOperator_MovementSound_SM_Ural,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+    ]
+
+    Actions = MAP[
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = [
+        SubDepictionTowedUnit,
+    ]
+
+    SubDepictionGenerators = [ TransportedInfantrySubGenerator ]
 )
 // Dépiction de l'unité VAB_CMD_FR
 DepictionOperator_VAB_CMD_FR_Weapon1 is DepictionOperator_WeaponContinuousFire

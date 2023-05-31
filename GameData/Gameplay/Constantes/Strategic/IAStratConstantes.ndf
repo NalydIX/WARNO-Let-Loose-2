@@ -3,7 +3,6 @@
 private scaleAffichage is 0.02
 StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
 (
-    RadiusToSearchTargetToBombardAroundRealTarget = 10 * 400 * Metre
     NbAirplanesToKeepBeforeUsingAirDeny = 3
     NbAirplanesToKeepBeforeUsingBombard = 1
     NbMaxPawnAllowedToFortifyPerObjective = 0
@@ -58,7 +57,7 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
                 [
                     EVictoryType/Draw,  //NotActive
                     EVictoryType/Draw,  //ToDefend
-                    EVictoryType/Draw,  //ToCapture
+                    EVictoryType/MinorDefeat,  //ToCapture
                     EVictoryType/Draw,  //CapturedNotActive
                 ]
             )

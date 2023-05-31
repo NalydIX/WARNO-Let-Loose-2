@@ -17,6 +17,7 @@ DefaultRenderLayerSelector is TRenderLayerSelector(
 
 export DepictionProperties is TDepictionProperties
 (
+    World = $/M3D/Scene/DefaultWorld
     DepictionMaterialPack = $/M3D/Shader/MultiRenderTypeMaterialPack_Depiction
     RenderLayerSelector = ~/DefaultRenderLayerSelector
 )

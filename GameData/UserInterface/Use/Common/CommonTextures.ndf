@@ -162,6 +162,10 @@ CommonTexture_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("trait_HEL",           MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/Common/traits/HEL.png' )), ] ),
         ("trait_SUP",           MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/Common/traits/SUP.png' )), ] ),
 
+        ("Steelman_terrain_plaine",           MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/UseStrategic/Icons/terrain_plaine.png' )), ] ),
+        ("Steelman_terrain_urbain",           MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/UseStrategic/Icons/terrain_urbain.png' )), ] ),
+        ("Steelman_terrain_foret",           MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/UseStrategic/Icons/TerrainForet.png' )), ] ),
+
     ]
 )
 

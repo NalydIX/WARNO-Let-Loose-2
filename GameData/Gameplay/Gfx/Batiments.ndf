@@ -39,7 +39,7 @@ export DefaultUnitLevelBuildViewDescriptor is template_UnitLevelBuildViewDescrip
     StickersHandler = $/GFX/StickerProxy/DynamicStickersHandlerProxy
     UseStateGeoDatabaseModification = true
     UseAutoBatcher = false
-    Operators = [ ~/DepictionOperator_Shader_Ghost, ~/BuildingDamageRatioOperator, DepictionOperator_Shader_TeamColor, DepictionOperator_Shader_Selection ]
+    Operators = [ ~/DepictionOperator_Shader_GhostTactic, ~/BuildingDamageRatioOperator, DepictionOperator_Shader_TeamColor, DepictionOperator_Shader_Selection ]
     HappeningOnDestruction = 'FOBDestruction'
 )
 
@@ -49,16 +49,7 @@ export GhostUnitLevelBuildViewDescriptor is template_UnitLevelBuildViewDescripto
     StickersHandler = nil
     UseStateGeoDatabaseModification = false
     UseAutoBatcher = false
-    Operators = [ ~/DepictionOperator_Shader_Ghost, DepictionOperator_Shader_TeamColor, DepictionOperator_Shader_Selection ]
-)
-
-export DefenseUnitLevelBuildViewDescriptor is template_UnitLevelBuildViewDescriptor
-(
-    AdditionalMode = SDMode_Sticker + SDMode_StickerDynamic
-    StickersHandler = $/GFX/StickerProxy/DynamicStickersHandlerProxy
-    UseStateGeoDatabaseModification = true
-    UseAutoBatcher = false
-    Operators = [ ~/DepictionOperator_Shader_Ghost, ~/BuildingDamageRatioOperator, DepictionOperator_Shader_TeamColor, DepictionOperator_Shader_Selection ]
+    Operators = [ ~/DepictionOperator_Shader_Ghost, DepictionOperator_Shader_TeamColor ]
 )
 
 export MapBuildingUnitLevelBuildViewDescriptor is template_UnitLevelBuildViewDescriptor

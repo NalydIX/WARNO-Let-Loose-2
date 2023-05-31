@@ -2057,10 +2057,6 @@ is TUISpecificBattlegroupsListViewDescriptor
     ModaleImportDeck = ~/DeckListModalImportDeckWindowFrame
     ModaleExportDeck = ~/DeckListModalExportDeckWindowFrame
 
-    ShowOverviewSound = ~/SoundEvent_ShowDeckOverview
-    HideOverviewSound = ~/SoundEvent_HideDeckOverview
-    ChangeOverviewSound = ~/SoundEvent_ChangeDeckOverview
-
     OverviewEmptyFieldPlaceholder = "CL_DEFVAL"
     OverviewUnitsPerLine = 7
     UnitPackComponentDescriptor = UISpecificUnitButtonViewDescriptor

@@ -1246,11 +1246,6 @@ GhostDepiction_M1A1_Abrams_US is GhostVehicleDepictionTemplate
     Selector = Selector_M1A1_Abrams_US
     Alternatives = Alternatives_M1A1_Abrams_US
 )
-GhostDepiction_M1A1_Abrams_reco_US is GhostVehicleDepictionTemplate
-(
-    Selector = Selector_M1A1_Abrams_reco_US
-    Alternatives = Alternatives_M1A1_Abrams_reco_US
-)
 GhostDepiction_M1IP_Abrams_CMD_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_M1IP_Abrams_CMD_US
@@ -1940,6 +1935,11 @@ GhostDepiction_Ural_4320_SOV is GhostVehicleDepictionTemplate
 (
     Selector = Selector_Ural_4320_SOV
     Alternatives = Alternatives_Ural_4320_SOV
+)
+GhostDepiction_Ural_4320_trans_SOV is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_Ural_4320_trans_SOV
+    Alternatives = Alternatives_Ural_4320_trans_SOV
 )
 GhostDepiction_VAB_CMD_FR is GhostVehicleDepictionTemplate
 (

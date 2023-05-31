@@ -526,6 +526,7 @@ private UISpecificStrategicCubeActionViewDescriptor is TUISpecificCubeActionView
         (~/StrategicCubeActionFunctionType/Orders,
             CubeActionButton
             (
+                HasBorder = true
                 BackgroundBlockColorToken = 'SM_Noir'
                 BorderLineColorToken = 'SM_Noir'
                 RoundedVertexes = [false, true, true, false]

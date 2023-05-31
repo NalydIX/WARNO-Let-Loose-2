@@ -299,6 +299,9 @@ SpecificInGameLDHintResource is TUICommonInGameLDHintResource
         // generaux vide
         ( "general_DDR",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'general_DDR' )),
         ( "general_DDR_noPause",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'general_DDR' HasButtons = false  )),
+        ( "general_DDR_2_noPause",             PORTRAIT_Steelman (Texture = 'general_DDR_2' HasButtons = false  )),
+        ( "general_RFA_2_noPause",             PORTRAIT_Steelman (Texture = 'general_RFA_2' HasButtons = false  )),
+        ( "general_RFA_2",             PORTRAIT_Steelman (Texture = 'general_RFA_2' HasButtons = true  )),
         ( "general_US",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'general_US' )),
         // tuto_1
         ( "Steelman_tuto_0",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman = 'Steelman_tuto_0' )),
@@ -318,6 +321,11 @@ SpecificInGameLDHintResource is TUICommonInGameLDHintResource
         ( "otan_bad_1a",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'otan_bad_1a' )),
         ( "otan_bad_2",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'otan_bad_2' )),
         ( "otan_bad_2a",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'otan_bad_2a' )),
+
+        ( "bad_intro_1",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'bad_intro_1' )),
+        ( "bad_intro_2",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'bad_intro_2' )),
+        ( "bad_intro_3",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'bad_intro_3' )),
+        ( "bad_intro_4",             PORTRAIT_PauseAndTexture_Steelman (TextureSteelman_FullScreen = 'bad_intro_4' )),
    ]
 )
 
@@ -455,6 +463,8 @@ UseInGame_AdditionalLDHintTextureBank is TBUCKToolAdditionalTextureBank
     ( "Steelman_tuto_3",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/tuto_1/tuto_3.png' ))] ),
 
     ( "general_DDR",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/general_DDR.png' ))] ),
+    ( "general_DDR_2",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/general_DDR_2.png' ))] ),
+    ( "general_RFA_2",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/general_RFA_2.png' ))] ),
     ( "general_US",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/general_US.png' ))] ),
     // bad h.
     ( "bad_hersfeld_sov_01",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/bad_hersfeld/sov_01.png' ))] ),
@@ -467,6 +477,17 @@ UseInGame_AdditionalLDHintTextureBank is TBUCKToolAdditionalTextureBank
     ( "otan_bad_1a",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/bad_hersfeld/otan_bad_1a.png' ))] ),
     ( "otan_bad_2",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/bad_hersfeld/otan_bad_2.png' ))] ),
     ( "otan_bad_2a",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/bad_hersfeld/otan_bad_2a.png' ))] ),
+
+    // ( "bad_intro_1",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Map/Scenario/CampagneStrat_badHerseld/ldhint2/situation_globale.png' ))] ),
+    // ( "bad_intro_2",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Map/Scenario/CampagneStrat_badHerseld/ldhint2/situation_locale.png' ))] ),
+    // ( "bad_intro_3",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Map/Scenario/CampagneStrat_badHerseld/ldhint2/situation_locale_2.png' ))] ),
+    // ( "bad_intro_4",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Map/Scenario/CampagneStrat_badHerseld/ldhint2/situation_zoom.png' ))] ),
+
+    ( "bad_intro_1",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/bad_hersfeld/ldhint2/situation_globale.png' ))] ),
+    ( "bad_intro_2",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/bad_hersfeld/ldhint2/situation_locale.png' ))] ),
+    ( "bad_intro_3",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/bad_hersfeld/ldhint2/situation_locale_2.png' ))] ),
+    ( "bad_intro_4",        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/LDHint/bad_hersfeld/ldhint2/situation_zoom.png' ))] ),
+
     //-------------------------------------------------------------------------------------
     // animation
 

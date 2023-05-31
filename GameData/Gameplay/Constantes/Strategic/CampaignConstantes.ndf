@@ -15,7 +15,7 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
     DefenderFatigueGainAfterCombat = ~/StrategicBattleDefenderFatigueGainAfterBattle
 
 
-    PawnDissolutionFactor = 0.2 //Un pion est dissout après le combat si sa dernière compagnie est en dessous de X% de son effectif initial
+    PawnDissolutionFactor = 0.3 //Un pion est dissout après le combat si sa dernière compagnie est en dessous de X% de son effectif initial
     FreeDefenseRadius = 0 * ~/ActionPointConsumptionRefs/CaseSize // Le rayon autour de l'unité attaquée dans lequel les unités alliés peuvent attaquer sans reset leur défense et sans bouger
     NbActionPointsNeededToFight = 4 //Nombre de PA nécessaire pour participer à une bataille une fois sur place
     NbActionPointsNeededToFightForAirplane = 4 //Nombre de PA nécessaire pour participer à une bataille une fois sur place
@@ -77,7 +77,7 @@ StrategicCampaignConstantes is TStrategicCampaignConstantes
     SteelmanFxDuration = 1
     SteelmanCombatSound = $/VFX_Bank/SFX_Steelman_Combat_Sound
     SteelmanAirCombatFX = $/GFX/GameFx/FX_Steelman_Combat_Binder
-    SteelmanAirCombatFxDuration = 4.5 // seconds
+    SteelmanAirCombatFxDuration = 2.5 // seconds
     SteelmanAirCombatSound = $/VFX_Bank/SFX_Steelman_Combat_Air_Air_Sound
 
     // Possibilite de conserver un ordre sur plusieurs tours

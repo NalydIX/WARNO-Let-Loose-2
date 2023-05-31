@@ -21,37 +21,7 @@ private StrategicEndTurnMainComponent is BUCKContainerDescriptor
     BackgroundBlockColorToken = 'SM_xanadu'
     Components =
     [
-        //-------------------------------------------------------------------------------------
-        // BoutonNextTurn
-        BUCKListDescriptor
-        (
-            ComponentFrame = TUIFramePropertyRTTI
-                (
-                    MagnifiableOffset = [-10,-50]
-                    AlignementToAnchor = [1.0, 1.0]
-                    AlignementToFather = [1.0, 1.0]
-                )
-            BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
-            Axis = ~/ListAxis/Vertical
-            FirstMargin = TRTTILength (Magnifiable = 4)
-            InterItemMargin = TRTTILength ( Magnifiable = 4                             )
-            Elements =
-            [
-                {// affichage de la date
-                                BUCKListElementDescriptor
-                                (
-                                    ComponentDescriptor = ~/StrategicEndTurnContent
-                                ),}
-                // bouton
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = BoutonNextTurn
-                ),
-            ]
-        ),
-
-        //-------------------------------------------------------------------------------------
-
+        BoutonNextTurn
     ]
 )
 //----------------------------------------------------------------------
@@ -64,11 +34,13 @@ private BoutonNextTurn is BUCKButtonDescriptor
 
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [141, 40]
-        MagnifiableOffset = [-20,0]
+        MagnifiableOffset = [0.0, -50.0]
+        AlignementToAnchor = [1.0, 1.0]
+        AlignementToFather = [1.0, 1.0]
+        MagnifiableWidthHeight = [0, 40.0]
     )
 
-    AreaShape = ~/AreaShape/Disc
+    FitStyle = ~/ContainerFitStyle/FitToContentHorizontally
 
     Components =
     [
@@ -76,12 +48,12 @@ private BoutonNextTurn is BUCKButtonDescriptor
         (
             ComponentFrame = TUIFramePropertyRTTI
             (
-                MagnifiableWidthHeight = [0,40]
+                RelativeWidthHeight = [0, 1.0]
                 AlignementToAnchor = [0.0, 0.5]
                 AlignementToFather = [0.0, 0.5]
             )
             Axis = ~/ListAxis/Horizontal
-
+            ChildFitToContent = true
 
             FirstMargin = TRTTILength(Magnifiable = 10.0)
             InterItemMargin = TRTTILength(Magnifiable = 10.0)
@@ -112,8 +84,8 @@ private BoutonNextTurn is BUCKButtonDescriptor
                     (
                         ComponentFrame = TUIFramePropertyRTTI
                         (
-                            AlignementToFather = [0,0.5]
-                            AlignementToAnchor = [0,0.5]
+                            AlignementToFather = [0.0, 0.5]
+                            AlignementToAnchor = [0.0, 0.5]
                         )
 
                         ParagraphStyle = ~/LDHintParagraphStyleLeftAlignedExact

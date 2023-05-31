@@ -16704,46 +16704,6 @@ export Descriptor_ShowRoomUnit_M1A1_Abrams_US is TEntityDescriptor
         ),
     ]
 )
-export Descriptor_ShowRoomUnit_M1A1_Abrams_reco_US is TEntityDescriptor
-(
-    DescriptorId        = GUID:{0940679a-a47e-4bfd-960d-e4436b28af93}
-    ClassNameForDebug   = "ShowRoomUnit_M1A1_Abrams_reco_US"
-    ModulesDescriptors = [
-        TTypeUnitModuleDescriptor
-        (
-            Nationalite                      = ENationalite/Allied
-            MotherCountry                    = 'US'
-            AcknowUnitType                   = ~/TAcknowUnitType_Reco
-            TypeUnitFormation                = 'Reconnaissance'
-        ),
-        ~/ShowroomPositionModuleDescriptor,
-        TApparenceModelModuleDescriptor
-        (
-            PickableObject                     = True
-            Depiction                          = ~/Gfx_M1A1_Abrams_reco_US_Showroom_Autogen
-            GameplayBBoxBoneName               = 'chassis'
-        ),
-        WeaponManager is TModuleSelector
-        (
-            Default        = $/GFX/Everything/WeaponDescriptor_M1A1_Abrams_reco_US
-            Selection      = [~/NilDescriptorIfCadavre]
-        ),
-        ~/LinkTeamModuleDescriptor,
-        ~/EffectApplierModuleDescriptor,
-        TExperienceModuleDescriptor
-        (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
-            CanWinExperience = True
-            ExperienceGainBySecond = ~/ExperienceGainBySecond
-            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
-        ),
-        TCameraShowroomModuleDescriptor
-        (
-            Token = 'MBT'
-            SpawnType = EShowroomSpawnType/Vehicle
-        ),
-    ]
-)
 export Descriptor_ShowRoomUnit_M1IP_Abrams_CMD_US is TEntityDescriptor
 (
     DescriptorId        = GUID:{a9942d9e-e484-4715-a5a7-798332a0ed05}
@@ -29670,6 +29630,41 @@ export Descriptor_ShowRoomUnit_Ural_4320_SOV is TEntityDescriptor
         (
             ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
             CanWinExperience = False
+            ExperienceGainBySecond = ~/ExperienceGainBySecond
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Vehicle'
+            SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
+)
+export Descriptor_ShowRoomUnit_Ural_4320_trans_SOV is TEntityDescriptor
+(
+    DescriptorId        = GUID:{bb5fe286-c0da-410e-8662-31282cbce97c}
+    ClassNameForDebug   = "ShowRoomUnit_Ural_4320_trans_SOV"
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Transport
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/ShowroomPositionModuleDescriptor,
+        TApparenceModelModuleDescriptor
+        (
+            PickableObject                     = True
+            Depiction                          = ~/Gfx_Ural_4320_trans_SOV_Showroom_Autogen
+            GameplayBBoxBoneName               = 'chassis'
+        ),
+        ~/LinkTeamModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v2
+            CanWinExperience = True
             ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),

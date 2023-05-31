@@ -22026,71 +22026,6 @@ Descriptor_UnitCadavre_M1A1_Abrams_US is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
-Descriptor_UnitCadavre_M1A1_Abrams_reco_US is TEntityDescriptor
-(
-    DescriptorId       = GUID:{88af073a-6410-4e1c-88b6-f1d4c4f07f79}
-    ClassNameForDebug  = 'Unit_CadavreM1A1_Abrams_reco_US'
-    ModulesDescriptors = [
-        TTypeUnitModuleDescriptor
-        (
-            Nationalite                      = ENationalite/Allied
-            MotherCountry                    = 'US'
-            AcknowUnitType                   = ~/TAcknowUnitType_Reco
-            TypeUnitFormation                = 'Reconnaissance'
-        ),
-        ~/EmptyTagsModuleDescriptor,
-        TFlagsModuleDescriptor
-        (
-            InitialFlagSet =
-            [
-                Flag_Detectable,
-                Flag_LdDetectable,
-            ]
-        ),
-            TPositionModuleDescriptor
-            (
-                UseFollowCam               = False
-                StickToGround              = True
-                InGeoDb                    = False
-                PorteurMustBeVisible       = True
-                ClampInWorld               = True
-                ClampOutMap                = False
-                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
-                LowAltitudeFlyingAltitude  = ((0) * Metre)
-                NearGroundFlyingAltitude   = ((0) * Metre)
-            ),
-        ~/LinkTeamModuleDescriptor,
-            TCadavreModuleDescriptor
-            (
-                ExplodeAtEnd = True
-                KillAsVehicule = True
-                KillAsInfanterie = False
-                KillAsHelico = False
-                KillAsAirplane = False
-                KillAsBatiment = False
-                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
-                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
-                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
-                FadingDuration = 1
-                DeathExplosionAmmo = ~/Ammo_Mort_Unite_forte
-                ModuleDescriptorsToSteal =
-                [
-                   $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/WeaponManager,
-                   $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/ApparenceModel,
-                   $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/LandMovement,
-                   $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/GenericMovement,
-                   $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/FacingInfos,
-                ]
-            ),
-            $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/WeaponManager,
-            $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/ApparenceModel,
-            $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/LandMovement,
-            $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/GenericMovement,
-            $/GFX/Everything/Descriptor_Unit_M1A1_Abrams_reco_US/FacingInfos,
-        ~/PackSignauxModuleDescriptor,
-        ~/DebugModuleDescriptor,
-    ]
-)
 Descriptor_UnitCadavre_M1IP_Abrams_CMD_US is TEntityDescriptor
 (
     DescriptorId       = GUID:{4f01cd77-f673-4450-ad22-70cfda31e06d}
@@ -37496,6 +37431,71 @@ Descriptor_UnitCadavre_Ural_4320_SOV is TEntityDescriptor
             $/GFX/Everything/Descriptor_Unit_Ural_4320_SOV/LandMovement,
             $/GFX/Everything/Descriptor_Unit_Ural_4320_SOV/GenericMovement,
             $/GFX/Everything/Descriptor_Unit_Ural_4320_SOV/FacingInfos,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Ural_4320_trans_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{e30edf60-e9d4-4d39-a9aa-743238859668}
+    ClassNameForDebug  = 'Unit_CadavreUral_4320_trans_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Transport
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_Detectable,
+                Flag_LdDetectable,
+            ]
+        ),
+            TPositionModuleDescriptor
+            (
+                UseFollowCam               = False
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                ClampInWorld               = True
+                ClampOutMap                = False
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+        ~/LinkTeamModuleDescriptor,
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = True
+                KillAsInfanterie = False
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = False
+                CadavreDuration = $/GFX/Everything/CadavreDurationApresFeu
+                CadavreFireDurationMin = $/GFX/Everything/CadavrePeriodeEnFeu_Minimum
+                CadavreFireDurationMax = $/GFX/Everything/CadavrePeriodeEnFeu_Maximum
+                FadingDuration = 1
+                DeathExplosionAmmo = ~/Ammo_Mort_Unite_faible
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/ApparenceModel,
+                   $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/LandMovement,
+                   $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/GenericMovement,
+                   $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/FacingInfos,
+                   $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/Transporter,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/LandMovement,
+            $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/GenericMovement,
+            $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/FacingInfos,
+            $/GFX/Everything/Descriptor_Unit_Ural_4320_trans_SOV/Transporter,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]

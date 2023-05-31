@@ -7133,28 +7133,6 @@ Descriptor_OrderAvailability_M1A1_Abrams_US is [
     "AIAttack",
     "AIStop",
 ]
-Descriptor_OrderAvailability_M1A1_Abrams_reco_US is [
-    "Stop",
-    "Move",
-    "FollowFormation",
-    "QuickMove",
-    "Attack",
-    "FastMoveAndAttack",
-    "MoveAndAttack",
-    "Spread",
-    "Reverse",
-    "Shoot",
-    "ShootOnPosition",
-    "ShootOnPositionWithoutCorrection",
-    "ShootDefensiveSmoke",
-    "AskForSupply",
-    "GoGetSupply",
-    "LoadIntoTransport",
-    "Load",
-    "AIDefend",
-    "AIAttack",
-    "AIStop",
-]
 Descriptor_OrderAvailability_M1IP_Abrams_CMD_US is [
     "Stop",
     "Move",
@@ -12149,6 +12127,24 @@ Descriptor_OrderAvailability_Ural_4320_SOV is [
     "Load",
     "AIStop",
     "AISupply",
+]
+Descriptor_OrderAvailability_Ural_4320_trans_SOV is [
+    "Stop",
+    "Sell",
+    "Move",
+    "FollowFormation",
+    "QuickMove",
+    "Spread",
+    "Reverse",
+    "AskForSupply",
+    "GoGetSupply",
+    "UnloadFromTransport",
+    "UnloadAtPosition",
+    "UnloadSelf",
+    "LoadIntoTransport",
+    "Load",
+    "LoadUnit",
+    "AIStop",
 ]
 Descriptor_OrderAvailability_VAB_CMD_FR is [
     "Stop",

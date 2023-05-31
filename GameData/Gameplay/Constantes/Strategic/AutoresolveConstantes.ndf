@@ -9,27 +9,41 @@ private AirUnitTagsToCheck is [ 'Helo', 'Avion' ]
 
 private NoRecoAdvantage is TCombatAdvantageDefinition
 (
-    AdvantageValue = 1
+    AdvantageValue = 0.5
     // Alexis test à remplacer quand NoInfantryAdvantage fonctionnera
-    TextToken = 'CA_INF'
-    TagToCheck = ['Infanterie']
-    TagToCheckAgainst = ['Infanterie']
+    TextToken = 'CA_RECO'
+    TagToCheck = ['Char_Reco', 'Helo_Reco', 'Infanterie_Reco', 'Vehicule_Reco']
+    TagToCheckAgainst = ['Char_Reco', 'Helo_Reco', 'Infanterie_Reco', 'Vehicule_Reco']
 )
 
 private NoAAAdvantage is TCombatAdvantageDefinition
 (
-    AdvantageValue = 0
+    AdvantageValue = 1
     TextToken = 'CA_AA'
     TagToCheck = [ 'Helo', 'Avion' ]
     TagToCheckAgainst = [ 'Canon_AA', 'Avion_Chasseur','Canon_AA_Standard', 'Avion' ]
+)
+private NoHeavyTank_advantage is TCombatAdvantageDefinition
+(
+    AdvantageValue = 0.5
+    TextToken = 'CA_HT'
+    TagToCheck = [ 'SM_charLourd' ]
+    TagToCheckAgainst = [ 'SM_charLourd' ]
 )
 
 private NoATAdvantage is TCombatAdvantageDefinition
 (
     AdvantageValue = 1
     TextToken = 'CA_AT'
-    TagToCheck = [ 'Char' ]
-    TagToCheckAgainst = [ 'Char', 'ChasseurDeChar','Avion_AT','Infanterie_Spec_Defense']
+    TagToCheck = [ 'Char', 'ChasseurDeChar','Avion_AT',]
+    TagToCheckAgainst = [ 'Char', 'ChasseurDeChar','Avion_AT',]
+)
+private NoCMD_Advantage is TCombatAdvantageDefinition
+(
+    AdvantageValue = 2
+    TextToken = 'CA_CMD'
+    TagToCheck = [ 'Commandant']
+    TagToCheckAgainst = [ 'Commandant']
 )
 private NoInfantryAdvantage is TCombatAdvantageDefinition
 (
@@ -37,6 +51,20 @@ private NoInfantryAdvantage is TCombatAdvantageDefinition
     TextToken = 'CA_INF'
     TagToCheck = [ 'Infanterie' ]
     TagToCheckAgainst = [ 'Infanterie']
+)
+private NoSupply_Advantage is TCombatAdvantageDefinition
+(
+    AdvantageValue = 0.5
+    TextToken = 'CA_supply'
+    TagToCheck = [ 'Helo_Logistique', 'Vehicule_Logistique']
+    TagToCheckAgainst = [ 'Helo_Logistique', 'Vehicule_Logistique']
+)
+private NoAirSupport_Advantage is TCombatAdvantageDefinition
+(
+    AdvantageValue = 0.5
+    TextToken = 'CA_airsup'
+    TagToCheck = [ 'Avion']
+    TagToCheckAgainst = [ 'Avion']
 )
 private DCA_air is TCombatAdvantageDefinition
 (
@@ -114,6 +142,11 @@ StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
                 ( ~/EAutoresolveAvantage_NoRecoVersusReco,     ~/NoRecoAdvantage ),
                 ( ~/EAutoresolveAvantage_NoAntiAirVersusAir,   ~/NoAAAdvantage ),
                 ( ~/EAutoresolveAvantage_NoAntiTankVersusTank, ~/NoATAdvantage ),
+                ( ~/EAutoresolveAvantage_NoHeavyTank_vs_HeavyTank, ~/NoHeavyTank_advantage ),
+                ( ~/EAutoresolveAvantage_NoInfantry_vs_Infantry, ~/NoInfantryAdvantage ),
+                ( ~/EAutoresolveAvantage_NoCMD_vs_CMD, ~/NoCMD_Advantage ),
+                ( ~/EAutoresolveAvantage_NoSupply_vs_Supply, ~/NoSupply_Advantage ),
+                ( ~/EAutoresolveAvantage_NoAir_vs_Air, ~/NoAirSupport_Advantage ),
             ]
         ),
         ( EStrategicBattleType_AerialStrategicBattle, MAP
@@ -207,17 +240,17 @@ StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
         (-1 , 1), //TotalVictory
         (-1 , 1), //NotSpecified
     ]
-
+    // il s'agit du coût en PA des DCA quand elles se battent contre un avion.
     APLossForInterceptorAndPassingPawnByVictoryTypeForAttackerAirGroundBattle =
     [
-        (3 , 0), //TotalDefeat
-        (3 , 0), //MajorDefeat
-        (3 , 0), //MinorDefeat
-        (3 , 0), //Draw
-        (3 , 0), //MinorVictory
-        (3 , 0), //MajorVictory
-        (3 , 0), //TotalVictory
-        (3 , 0), //NotSpecified
+        (-1 , 0), //TotalDefeat
+        (-1 , 0), //MajorDefeat
+        (-1 , 0), //MinorDefeat
+        (-1 , 0), //Draw
+        (-1 , 0), //MinorVictory
+        (-1 , 0), //MajorVictory
+        (-1 , 0), //TotalVictory
+        (-1 , 0), //NotSpecified
     ]
 
     APLossForInterceptorAndPassingPawnByVictoryTypeForAttackerGroundAirBattle =

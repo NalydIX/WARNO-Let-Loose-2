@@ -4,6 +4,12 @@
 //Operator de "shader" (ex-renderstyle), qui n'affecte pas la pose
 DepictionOperator_Shader_Selection is TCosmeticSelectionStyleOperatorDesc()
 DepictionOperator_Shader_Ghost is TCosmeticGhostColorOperatorDesc()
+DepictionOperator_Shader_GhostTactic is TCosmeticTacticGhostColorOperatorDesc
+(
+    Color = [255, 255, 255, 255]
+    Alphas = [0.4, 0.2]
+    Blends = [1, 0.1]
+)
 DepictionOperator_Shader_TeamColor is TCosmeticTeamColorOperatorDesc()
 DepictionOperator_Shader_Exploded is TCosmeticExplodedStyleOperatorDesc()
 
@@ -675,14 +681,14 @@ DepictionOperator_GroundPuff_Helico is TCosmeticHelicopterGroundPuffOperatorDesc
 DepictionOperator_CadaverBurning is TCosmeticCadaverBurningOperatorDescriptor()
 DepictionOperator_CadaverCrashing is TCosmeticCadaverCrashingOperatorDescriptor()
 
-CommonOperators is [
+CommonTacticOperators is [
     DepictionOperator_Shader_Selection,
     DepictionOperator_Shader_TeamColor,
     DepictionOperator_Shader_Exploded,
     DepictionOperator_Reset_Generic,
     DepictionOperator_DamageRatio_Generic,
     DepictionOperator_CadaverBurning,
-    DepictionOperator_Shader_Ghost,
+    DepictionOperator_Shader_GhostTactic,
 ]
 
 CommonTowedUnitsOperators is

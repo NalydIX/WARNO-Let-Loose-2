@@ -208,12 +208,12 @@ CombatGroupsTabInStrategic is BUCKDraggableContainerDescriptor
 
             Components =
             [
-                BUCKSpecificHintableArea
-                (
-                    HintTitleToken = 'sm_comt'
-                    HintBodyToken = 'sm_comc'
-                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
-                ),
+                // BUCKSpecificHintableArea
+                // (
+                //     HintTitleToken = 'sm_comt'
+                //     HintBodyToken = 'sm_comc'
+                //     DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                // ),
                 PanelRoundedCorner
                 (
                     ElementName = "CombatGroupRoundedContainer"

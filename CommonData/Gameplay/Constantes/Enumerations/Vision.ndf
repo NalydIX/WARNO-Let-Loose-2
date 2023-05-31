@@ -20,8 +20,7 @@ EVisionUnitType is TBaseClass
 EVisionOpticsAltitudeConfig is TBaseClass
 (
     DontUse                              is 0
-    UseOnRS_TBA                          is 1
-    UseOnRS_TBAWithGroundOpticsLerp      is 2
+    UseOnRS_TBAWithGroundOpticsLerp      is 1
 )
 
 // TAutoRevealType // A maintenir synchro avec EugIA_Common/TVisibilityModuleDescriptor.h

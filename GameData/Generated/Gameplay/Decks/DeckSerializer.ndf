@@ -2950,8 +2950,8 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Unit_LightRifles_LAW_US, 1922),
         (Descriptor_Unit_Reserve_DDR, 1923),
         (Descriptor_Unit_SEK_RFA, 1924),
-        (Descriptor_Unit_M1A1_Abrams_reco_US, 1925),
         (Descriptor_Unit_Security_DDR, 1938),
         (Descriptor_Unit_VDV_Afgantsy_SOV, 1939),
+        (Descriptor_Unit_Ural_4320_trans_SOV, 1954),
     ]
 )

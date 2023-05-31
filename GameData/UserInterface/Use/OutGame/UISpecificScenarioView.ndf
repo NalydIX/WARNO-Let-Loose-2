@@ -347,7 +347,7 @@ private ScenarioDifficultyComponent is BUCKButtonDescriptor
         (
             ComponentFrame = TUIFramePropertyRTTI
             (
-                MagnifiableWidthHeight = [120.0, 0.0]
+                MagnifiableWidthHeight = [150.0, 0.0]
             )
 
             Axis = ~/ListAxis/Vertical
@@ -555,13 +555,23 @@ private template ScenarioDescriptionContainer
                                 ElementName = "SelectedDifficultyDescriptionText"
                                 ComponentFrame = TUIFramePropertyRTTI
                                 (
-                                    RelativeWidthHeight = [1.0, 0.0]
+                                    // RelativeWidthHeight = [1.0, 0.0]
+                                    MagnifiableWidthHeight = [490,0]
                                     AlignementToAnchor = [0.5, 0.0]
                                     AlignementToFather = [0.5, 0.0]
                                 )
-
-                                ParagraphStyle = ~/paragraphStyleTextCenter
+                                // HasBackground = true
+                                // BackgroundBlockColorToken = 'Orange'
+                                ParagraphStyle = TParagraphStyleRTTI
+                                (
+                                    Alignment = UIText_Left
+                                    VerticalAlignment = UIText_VerticalCenter
+                                    InterLine = 0.4
+                                )
                                 BigLineAction = ~/BigLineAction/MultiLine
+                                HorizontalFitStyle = ~/FitStyle/UserDefined
+                                VerticalFitStyle = ~/FitStyle/FitToContent
+
 
                                 TextStyle = 'Default'
                                 TextPadding = TRTTILength4(Magnifiable = [20,0,50,0])

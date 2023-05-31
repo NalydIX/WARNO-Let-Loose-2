@@ -288,7 +288,7 @@ template TemplateInfantryDepictionFactoryTactic
     Alternatives = <Alternatives>
     SubDepictions = <SubDepictions>
     Surrogates = <Surrogates>
-    Operators = [ DepictionOperator_Shader_Selection, DepictionOperator_Shader_TeamColor, DepictionOperator_Shader_Ghost ] + <Operators>
+    Operators = [ DepictionOperator_Shader_Selection, DepictionOperator_Shader_TeamColor, DepictionOperator_Shader_GhostTactic ] + <Operators>
 )
 
 template TemplateInfantryDepictionSquad
@@ -352,7 +352,7 @@ is TTimelyDepictionReceiverFactory
         Scaler = <Scaler>
         Selector = <Selector>
         DepictionAlternatives = <Alternatives>
-        Operators = [ DepictionOperator_Shader_Ghost,  DepictionOperator_Shader_Selection ]
+        Operators = [ DepictionOperator_Shader_Ghost ]
     )
 )
 
@@ -392,7 +392,7 @@ is TTimelyDepictionReceiverFactory
         Scaler = CommonVehicleScaler
         Selector = <Selector>
         DepictionAlternatives = <Alternatives>
-        Operators = CommonOperators + <Operators>
+        Operators = CommonTacticOperators + <Operators>
         Actions = <Actions>
         SubDepictions = <SubDepictions>
         SubDepictionGenerators = <SubDepictionGenerators>
@@ -417,7 +417,7 @@ is TTimelyDepictionReceiverFactory
         Scaler = SpecificFlyingScaler
         Selector = <Selector>
         DepictionAlternatives = <Alternatives>
-        Operators = CommonOperators + [ DepictionOperator_CadaverCrashing ] + <Operators>
+        Operators = CommonTacticOperators + [ DepictionOperator_CadaverCrashing ] + <Operators>
         Actions = <Actions>
         SubDepictions = <SubDepictions>
         SubDepictionGenerators = <SubDepictionGenerators>
@@ -492,45 +492,6 @@ is TSubDepiction
         ]
     )
 )
-
-template DefenseDepictionTemplateInternal
-[
-    Alternatives,
-    Operators,
-    Actions,
-]
-is TDepictionTemplate
-(
-    Scaler = CommonVehicleScaler
-    Selector = SpecificVehicleDepictionSelector
-    DepictionAlternatives = <Alternatives>
-
-    Operators = CommonOperators + <Operators>
-    Actions = <Actions>
-)
-
-template DefenseDepictionTemplateInternalShowroom
-[
-    Alternatives,
-]
-is TDepictionTemplate
-(
-    Selector = SpecificVehicleDepictionSelector
-    DepictionAlternatives = <Alternatives>
-)
-
-
-template DefenseDepictionTemplate
-[
-    ScenaryDescriptorName,
-    DepictionTemplate = nil,
-]
-is TTimelyModifyLevelBuildReceiverFactory
-(
-    SceneryDescriptorName      = <ScenaryDescriptorName>
-    LevelBuildDescriptor       = ~/DefenseUnitLevelBuildViewDescriptor
-)
-
 template TacticTowedSubDepictionTemplate
 [ Alternatives, InitialPoses, SubDepictionGenerators ]
 is TSubDepiction

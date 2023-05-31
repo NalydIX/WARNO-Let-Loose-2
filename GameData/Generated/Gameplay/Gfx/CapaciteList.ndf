@@ -594,7 +594,7 @@ export Capacite_GSR is TCapaciteDescriptor
     Range               = 1.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastRangeTolerance  = 0.00 * Metre
-    CastTime            = 10.00
+    CastTime            = 1.00
     Cooldown            = 0.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
@@ -603,7 +603,7 @@ export Capacite_GSR is TCapaciteDescriptor
     CastEffectDuration = -1.00
     CastEffectBound    = True
     TargetEffect         = ~/UnitEffect_GSR
-    TargetEffectDuration = 10.00
+    TargetEffectDuration = 1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False

@@ -5,17 +5,12 @@ private DivisionList is TDeckDivisionList
     DivisionList =
     [
         ~/Descriptor_Deck_Division_SOV_39_Gds_Rifle_multi,
-        ~/Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge,
-        ~/Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge_IA,
         ~/Descriptor_Deck_Division_US_3rd_Arm_challenge,
         ~/Descriptor_Deck_Division_US_3rd_Arm_challenge_IA,
         ~/Descriptor_Deck_Division_US_3rd_Arm_multi,
-        ~/Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge,
-        ~/Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge_IA,
         ~/Descriptor_Deck_Division_SOV_79_Gds_Tank_multi,
         ~/Descriptor_Deck_Division_US_8th_Inf_challenge_IA,
         ~/Descriptor_Deck_Division_US_8th_Inf_multi,
-        ~/Descriptor_Deck_Division_SOV_35_AirAslt_Brig_challenge,
         ~/Descriptor_Deck_Division_SOV_35_AirAslt_Brig_multi,
         ~/Descriptor_Deck_Division_RFA_12_Panzer_challenge_IA,
         ~/Descriptor_Deck_Division_US_82nd_Airborne_multi,
@@ -33,6 +28,11 @@ private DivisionList is TDeckDivisionList
         ~/Descriptor_Deck_Division_NATO_Garnison_Berlin_multi,
         ~/Descriptor_Deck_Division_FR_5e_Blindee_multi,
         ~/Descriptor_Deck_Division_FR_11e_Para_multi,
+        ~/Descriptor_Deck_Division_SOV_35_AirAslt_Brig_challenge,
+        ~/Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge,
+        ~/Descriptor_Deck_Division_SOV_39_Gds_Rifle_challenge_IA,
+        ~/Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge,
+        ~/Descriptor_Deck_Division_SOV_79_Gds_Tank_challenge_IA,
         ~/Descriptor_Deck_Division_US_11ACR_multi_HB,
     ]
 )

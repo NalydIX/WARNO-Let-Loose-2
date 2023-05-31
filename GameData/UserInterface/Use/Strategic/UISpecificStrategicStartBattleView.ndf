@@ -433,7 +433,9 @@ template Display2Columns
     ElementName2 : string = '',
     TextToken2 : string,
     TypefaceTokenToken2 : string = 'Eurostyle',
-    TextColorToken2 : string = "SM_paleSilver"
+    TextColorToken2 : string = "SM_paleSilver",
+    MagnifiableWidth_text1 : float = 253.0,
+    MagnifiableWidth_text2 : float = 105.0,
 ]
 is BUCKListDescriptor
 (
@@ -455,7 +457,7 @@ is BUCKListDescriptor
                 ElementName = <ElementName1>
                 TextToken = <TextToken1>
                 RelativeWidth = 0.0
-                MagnifiableWidth = 253.0
+                MagnifiableWidth = <MagnifiableWidth_text1>
             )
         ),
         BUCKListElementDescriptor
@@ -466,7 +468,7 @@ is BUCKListDescriptor
                 TextToken = <TextToken2>
                 Alignment = UIText_Right
                 RelativeWidth = 0.0
-                MagnifiableWidth = 105.0
+                MagnifiableWidth = <MagnifiableWidth_text2>
                 IsRightAligned = true
                 TypefaceToken = <TypefaceTokenToken2>
                 TextColor = <TextColorToken2>
@@ -592,6 +594,9 @@ private PanelInfosBataille is BUCKListDescriptor
                 TextToken1 = "PrC_terr"
                 TextToken2 = "ter_type"
                 TypefaceTokenToken2 = "Eurostyle_Heavy"
+                TextColorToken2 = 'BlancEquipe'
+                MagnifiableWidth_text1 = 203.0
+                MagnifiableWidth_text2 = 155.0
             )
         ),
         //-------------------------------------------------------------------------------------
@@ -675,6 +680,8 @@ private PanelInfosBataille is BUCKListDescriptor
                 TextToken2 = "income"
                 TypefaceTokenToken2 = "Eurostyle_Heavy"
                 TextColorToken2 = 'BlancEquipe'
+                MagnifiableWidth_text1 = 253.0+70
+                MagnifiableWidth_text2 = 105.0-70
 
 
             )

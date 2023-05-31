@@ -1246,11 +1246,6 @@ Alternatives_M1A1_Abrams_US is [
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1A1_Abrams_US_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_M1A1_Abrams_US_LOW DisabledOperators = [ 'tourelle2', 'tourelle3', 'tourelle4' ] ),
 ]
-Alternatives_M1A1_Abrams_reco_US is [
-    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M1A1_Abrams_reco_US ),
-    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1A1_Abrams_reco_US_MID ),
-    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_M1A1_Abrams_reco_US_LOW DisabledOperators = [ 'tourelle2', 'tourelle3', 'tourelle4' ] ),
-]
 Alternatives_M1IP_Abrams_CMD_US is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_M1IP_Abrams_CMD_US ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_M1IP_Abrams_CMD_US_MID ),
@@ -1940,6 +1935,11 @@ Alternatives_Ural_4320_SOV is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Ural_4320_SOV ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_Ural_4320_SOV_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_Ural_4320_SOV_LOW ),
+]
+Alternatives_Ural_4320_trans_SOV is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = Modele_Ural_4320_trans_SOV ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = Modele_Ural_4320_trans_SOV_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = Modele_Ural_4320_trans_SOV_LOW ),
 ]
 Alternatives_VAB_CMD_FR is [
     DepictionDescriptor_LOD_High( MeshDescriptor = Modele_VAB_CMD_FR ),

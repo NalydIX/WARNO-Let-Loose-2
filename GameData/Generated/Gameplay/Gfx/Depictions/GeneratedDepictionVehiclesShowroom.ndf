@@ -1643,11 +1643,6 @@ Gfx_M1A1_Abrams_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
     Alternatives = Alternatives_M1A1_Abrams_US
     Selector = Selector_M1A1_Abrams_US
 )
-Gfx_M1A1_Abrams_reco_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
-(
-    Alternatives = Alternatives_M1A1_Abrams_reco_US
-    Selector = Selector_M1A1_Abrams_reco_US
-)
 Gfx_M1IP_Abrams_CMD_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_M1IP_Abrams_CMD_US
@@ -2480,6 +2475,11 @@ Gfx_Ural_4320_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_Ural_4320_SOV
     Selector = Selector_Ural_4320_SOV
+)
+Gfx_Ural_4320_trans_SOV_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_Ural_4320_trans_SOV
+    Selector = Selector_Ural_4320_trans_SOV
 )
 Gfx_VAB_CMD_FR_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
